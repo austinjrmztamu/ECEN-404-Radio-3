@@ -1,0 +1,30 @@
+{ Using PSTWRITER 25.1.0 d001Apr-09-2026 at 19:09:42 }
+
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4: SCHEMATIC1, PAGE1 (5.60, 2.60).
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE1 (0.30, 2.90).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, PAGE1 (3.00, 2.90).
+#4 ERROR(ORCAP-36022): Pin number missing from Pin "BOOT" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#5 ERROR(ORCAP-36022): Pin number missing from Pin "NC_1" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#6 ERROR(ORCAP-36022): Pin number missing from Pin "NC_2" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#7 ERROR(ORCAP-36022): Pin number missing from Pin "VSENSE" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#8 ERROR(ORCAP-36022): Pin number missing from Pin "ENA" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#9 ERROR(ORCAP-36022): Pin number missing from Pin "GND" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#10 ERROR(ORCAP-36022): Pin number missing from Pin "VIN" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#11 ERROR(ORCAP-36022): Pin number missing from Pin "PH" of Package TPS5420_TRANS , U4: SCHEMATIC1, PAGE1 (5.60, 2.60). All pins should be numbered.
+#12 ERROR(ORCAP-36022): Pin number missing from Pin "BOOT" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#13 ERROR(ORCAP-36022): Pin number missing from Pin "NC_1" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#14 ERROR(ORCAP-36022): Pin number missing from Pin "NC_2" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#15 ERROR(ORCAP-36022): Pin number missing from Pin "VSENSE" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#16 ERROR(ORCAP-36022): Pin number missing from Pin "ENA" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#17 ERROR(ORCAP-36022): Pin number missing from Pin "GND" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#18 ERROR(ORCAP-36022): Pin number missing from Pin "VIN" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#19 ERROR(ORCAP-36022): Pin number missing from Pin "PH" of Package TPS5420_TRANS , U2: SCHEMATIC1, PAGE1 (0.30, 2.90). All pins should be numbered.
+#20 ERROR(ORCAP-36022): Pin number missing from Pin "BOOT" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#21 ERROR(ORCAP-36022): Pin number missing from Pin "NC_1" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#22 ERROR(ORCAP-36022): Pin number missing from Pin "NC_2" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#23 ERROR(ORCAP-36022): Pin number missing from Pin "VSENSE" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#24 ERROR(ORCAP-36022): Pin number missing from Pin "ENA" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#25 ERROR(ORCAP-36022): Pin number missing from Pin "GND" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#26 ERROR(ORCAP-36022): Pin number missing from Pin "VIN" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#27 ERROR(ORCAP-36022): Pin number missing from Pin "PH" of Package TPS5420_TRANS , U3: SCHEMATIC1, PAGE1 (3.00, 2.90). All pins should be numbered.
+#28 ERROR(ORCAP-36018): Netlisting cannot complete because of the errors listed above in the session log. Correct the errors and netlist design.

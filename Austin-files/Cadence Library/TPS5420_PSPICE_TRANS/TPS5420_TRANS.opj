@@ -1,0 +1,83 @@
+(ExpressProject "TPS5420_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "tps5420_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "tps5420_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps5420_trans-pspicefiles\start_up\start_up.sim"
+        (DisplayName "START_UP-Start_up")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps5420_trans-pspicefiles\steady_state\steady_state.sim"
+        (DisplayName "STEADY_STATE-Steady_state")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps5420_trans-pspicefiles\start_up\start_up.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps5420_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (TPS5420_TRANS
+      (FullPartName "TPS5420_TRANS.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS5420\RELEASE_SANKALP\PSPICE\TPS5420_PSPICE_TRANS\TPS5420_TRANS.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (IC1
+      (FullPartName "IC1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (CESR_1
+      (FullPartName "CESR_1.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS5420\ACTIVE_WORK_SANKALP\EXPERIMENTS\PSPICE\TPS5420_PSPICE_TRANS\TPS5420_TRANS.DSN")
+      (DeviceIndex "0"))
+    (LDCR_0
+      (FullPartName "LDCR_0.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS5420\ACTIVE_WORK_SANKALP\EXPERIMENTS\PSPICE\TPS5420_PSPICE_TRANS\TPS5420_TRANS.DSN")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.01\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "x0170935")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 441"))
+      (Tab 0))))

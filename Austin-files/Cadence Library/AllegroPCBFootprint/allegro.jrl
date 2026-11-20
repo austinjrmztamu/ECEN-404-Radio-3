@@ -1,0 +1,30 @@
+\t (00:00:04) allegro 25.1 S020 (4396590) [2/5/2026] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Apr  9 21:07:26 2026
+\t (00:00:04)         Host=MSI User=austi Pid=9572 CPUs=8
+\t (00:00:04) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe C:\Users\austi\OneDrive\Documents\College\ECEN 403\Cadence Library\AllegroPCBFootprint\D8.dra
+\t (00:00:04) 
+\t (00:00:05) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged D8
+\d (00:00:05) Design opened: C:/Users/austi/OneDrive/Documents/College/ECEN 403/Cadence Library/AllegroPCBFootprint/D8.dra
+\i (00:00:06) trapsize 5800
+\i (00:00:06) trapsize 6010
+\i (00:00:06) trapsize 5800
+\i (00:00:06) trapsize 5800
+\i (00:00:07) trapsize 4488
+\i (00:00:10) updateport SearchPane
+\i (00:00:10) generaledit 
+\t (00:00:10) [21:07:32.084993] Periodic Lic check successful
+[21:07:32.084995] Feature Usage summary:
+
+\i (00:24:08) exit 
+\t (00:24:08) [21:31:30.023810] Periodic Lic check successful
+[21:31:30.023811] Feature usage summary:
+
+\t (00:24:08) Loading consmgr.cxt 
+\t (00:24:08) Loading acns_formula.cxt 
+\t (00:24:08) Lic Summary:
+[21:31:30.293066] Cdslmd servers:C:\Users\austi\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[21:31:30.293411] Feature usage summary:
+
+\t (00:24:08)     Journal end - Thu Apr  9 21:31:30 2026
