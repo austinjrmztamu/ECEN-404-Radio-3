@@ -1,0 +1,79 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
+J!C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd!Fri Apr 10 18:01:07 2026!-236.8550!-208.2800!296.5450!223.5200!0.0001!millimeters!POWER DISTRIBUTION SYSTEM!10.400000 mil!2!OUT OF DATE!
+S!VOUT_3.3V!J1!1!@\power distribution system\.schematic1(sch_1):ins49264@\pptc041lgbn-rc\.\pptc041lgbn-rc.normal\(chips)!PPTC041LGBN-RC_RHDRRA4W60P0X254!!!F15!!!!!!!!!!
+S!VOUT_5V!J1!2!@\power distribution system\.schematic1(sch_1):ins49264@\pptc041lgbn-rc\.\pptc041lgbn-rc.normal\(chips)!PPTC041LGBN-RC_RHDRRA4W60P0X254!!!F15!!!!!!!!!!
+S!VOUT_6V!J1!3!@\power distribution system\.schematic1(sch_1):ins49264@\pptc041lgbn-rc\.\pptc041lgbn-rc.normal\(chips)!PPTC041LGBN-RC_RHDRRA4W60P0X254!!!F15!!!!!!!!!!
+S!0!J1!4!@\power distribution system\.schematic1(sch_1):ins49264@\pptc041lgbn-rc\.\pptc041lgbn-rc.normal\(chips)!PPTC041LGBN-RC_RHDRRA4W60P0X254!!!F15!!!!!!!!!!
+S!0!J3!1!@\power distribution system\.schematic1(sch_1):ins49551@\691137710002\.\691137710002.normal\(chips)!691137710002_SHDR2W70P0X500_1X2!!!F14!!!!!!!!!!
+S!N42970!J3!2!@\power distribution system\.schematic1(sch_1):ins49551@\691137710002\.\691137710002.normal\(chips)!691137710002_SHDR2W70P0X500_1X2!!!F14!!!!!!!!!!
+S!N43138!J4!1!@\power distribution system\.schematic1(sch_1):ins49567@\691137710002\.\691137710002.normal\(chips)!691137710002_SHDR2W70P0X500_1X2!!!F13!!!!!!!!!!
+S!GND!J4!2!@\power distribution system\.schematic1(sch_1):ins49567@\691137710002\.\691137710002.normal\(chips)!691137710002_SHDR2W70P0X500_1X2!!!F13!!!!!!!!!!
+S!N43138!S1!2!@\power distribution system\.schematic1(sch_1):ins49002@b12ap.\b12ap.normal\(chips)!B12AP_B12AP_B12AP!!!F3!!!!!!!!!!
+S!0!S1!3!@\power distribution system\.schematic1(sch_1):ins49002@b12ap.\b12ap.normal\(chips)!B12AP_B12AP_B12AP!!!F3!!!!!!!!!!
+S!N42970!S1!1!@\power distribution system\.schematic1(sch_1):ins49002@b12ap.\b12ap.normal\(chips)!B12AP_B12AP_B12AP!!!F3!!!!!!!!!!
+S!0!D1!1!@\power distribution system\.schematic1(sch_1):ins43448@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F18!!!!!!!!!!
+S!N43006!D1!2!@\power distribution system\.schematic1(sch_1):ins43448@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F18!!!!!!!!!!
+S!0!D2!1!@\power distribution system\.schematic1(sch_1):ins43474@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F17!!!!!!!!!!
+S!N43062!D2!2!@\power distribution system\.schematic1(sch_1):ins43474@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F17!!!!!!!!!!
+S!0!D3!1!@\power distribution system\.schematic1(sch_1):ins43248@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F16!!!!!!!!!!
+S!N43108!D3!2!@\power distribution system\.schematic1(sch_1):ins43248@\power distribution system\.\dbreak_6.normal\(chips)!DBREAK_6_SMC_ONS_DBREAK!!!F16!!!!!!!!!!
+S!N42970!C1!1!@\power distribution system\.schematic1(sch_1):ins43836@analog.\c.normal\(chips)!C_CAP196_470U!!!F27!!!!!!!!!!
+S!0!C1!2!@\power distribution system\.schematic1(sch_1):ins43836@analog.\c.normal\(chips)!C_CAP196_470U!!!F27!!!!!!!!!!
+S!N45244!C19!1!@\power distribution system\.schematic1(sch_1):ins43426@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F26!!!!!!!!!!
+S!N43006!C19!2!@\power distribution system\.schematic1(sch_1):ins43426@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F26!!!!!!!!!!
+S!N46110!C21!1!@\power distribution system\.schematic1(sch_1):ins43684@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F25!!!!!!!!!!
+S!N43062!C21!2!@\power distribution system\.schematic1(sch_1):ins43684@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F25!!!!!!!!!!
+S!N46547!C23!1!@\power distribution system\.schematic1(sch_1):ins43274@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F24!!!!!!!!!!
+S!N43108!C23!2!@\power distribution system\.schematic1(sch_1):ins43274@analog.\c.normal\(chips)!C_CAP196_0.01UF!!!F24!!!!!!!!!!
+S!N42970!C2!1!@\power distribution system\.schematic1(sch_1):ins43152@analog.\c.normal\(chips)!C_CAP196_1U!!!F23!!!!!!!!!!
+S!0!C2!2!@\power distribution system\.schematic1(sch_1):ins43152@analog.\c.normal\(chips)!C_CAP196_1U!!!F23!!!!!!!!!!
+S!0!C20!1!@\power distribution system\.schematic1(sch_1):ins43404@analog.\c.normal\(chips)!C_CAP196_100UF!!!F22!!!!!!!!!!
+S!VOUT_5V!C20!2!@\power distribution system\.schematic1(sch_1):ins43404@analog.\c.normal\(chips)!C_CAP196_100UF!!!F22!!!!!!!!!!
+S!0!C22!1!@\power distribution system\.schematic1(sch_1):ins43608@analog.\c.normal\(chips)!C_CAP196_100UF!!!F21!!!!!!!!!!
+S!VOUT_6V!C22!2!@\power distribution system\.schematic1(sch_1):ins43608@analog.\c.normal\(chips)!C_CAP196_100UF!!!F21!!!!!!!!!!
+S!0!C24!1!@\power distribution system\.schematic1(sch_1):ins43174@analog.\c.normal\(chips)!C_CAP196_100UF!!!F20!!!!!!!!!!
+S!VOUT_3.3V!C24!2!@\power distribution system\.schematic1(sch_1):ins43174@analog.\c.normal\(chips)!C_CAP196_100UF!!!F20!!!!!!!!!!
+S!N42970!C3!1!@\power distribution system\.schematic1(sch_1):ins43758@analog.\c.normal\(chips)!C_CAP196_100N!!!F19!!!!!!!!!!
+S!0!C3!2!@\power distribution system\.schematic1(sch_1):ins43758@analog.\c.normal\(chips)!C_CAP196_100N!!!F19!!!!!!!!!!
+S!N43006!L2!1!@\power distribution system\.schematic1(sch_1):ins43376@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F12!!!!!!!!!!
+S!VOUT_5V!L2!2!@\power distribution system\.schematic1(sch_1):ins43376@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F12!!!!!!!!!!
+S!N43062!L3!1!@\power distribution system\.schematic1(sch_1):ins43500@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F11!!!!!!!!!!
+S!VOUT_6V!L3!2!@\power distribution system\.schematic1(sch_1):ins43500@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F11!!!!!!!!!!
+S!N43108!L4!1!@\power distribution system\.schematic1(sch_1):ins43910@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F10!!!!!!!!!!
+S!VOUT_3.3V!L4!2!@\power distribution system\.schematic1(sch_1):ins43910@analog.\l.normal\(chips)!L_DISC350X175LS200X100034_33UH!!!F10!!!!!!!!!!
+S!N43018!R13!1!@\power distribution system\.schematic1(sch_1):ins43196@analog.\r.normal\(chips)!R_AXRC05_10K!!!F9!!!!!!!!!!
+S!VOUT_5V!R13!2!@\power distribution system\.schematic1(sch_1):ins43196@analog.\r.normal\(chips)!R_AXRC05_10K!!!F9!!!!!!!!!!
+S!N43070!R17!1!@\power distribution system\.schematic1(sch_1):ins43554@analog.\r.normal\(chips)!R_AXRC05_10K!!!F8!!!!!!!!!!
+S!VOUT_6V!R17!2!@\power distribution system\.schematic1(sch_1):ins43554@analog.\r.normal\(chips)!R_AXRC05_10K!!!F8!!!!!!!!!!
+S!N43116!R20!1!@\power distribution system\.schematic1(sch_1):ins43938@analog.\r.normal\(chips)!R_AXRC05_10K!!!F7!!!!!!!!!!
+S!VOUT_3.3V!R20!2!@\power distribution system\.schematic1(sch_1):ins43938@analog.\r.normal\(chips)!R_AXRC05_10K!!!F7!!!!!!!!!!
+S!0!R14!1!@\power distribution system\.schematic1(sch_1):ins43528@analog.\r.normal\(chips)!R_AXRC05_3.24K!!!F6!!!!!!!!!!
+S!N43018!R14!2!@\power distribution system\.schematic1(sch_1):ins43528@analog.\r.normal\(chips)!R_AXRC05_3.24K!!!F6!!!!!!!!!!
+S!0!R18!1!@\power distribution system\.schematic1(sch_1):ins43630@analog.\r.normal\(chips)!R_AXRC05_2.55K!!!F5!!!!!!!!!!
+S!N43070!R18!2!@\power distribution system\.schematic1(sch_1):ins43630@analog.\r.normal\(chips)!R_AXRC05_2.55K!!!F5!!!!!!!!!!
+S!0!R21!1!@\power distribution system\.schematic1(sch_1):ins43222@analog.\r.normal\(chips)!R_AXRC05_5.9K!!!F4!!!!!!!!!!
+S!N43116!R21!2!@\power distribution system\.schematic1(sch_1):ins43222@analog.\r.normal\(chips)!R_AXRC05_5.9K!!!F4!!!!!!!!!!
+S!N45244!U5!1!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!!U5!5!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!GND!U5!6!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!!U5!2!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!!U5!3!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!N43006!U5!8!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!N43138!U5!7!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!N43018!U5!4!@\power distribution system\.schematic1(sch_1):ins44832@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F2!!!!!!!!!!
+S!N46110!U6!1!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!!U6!5!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!GND!U6!6!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!!U6!2!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!!U6!3!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!N43062!U6!8!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!N43138!U6!7!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!N43070!U6!4!@\power distribution system\.schematic1(sch_1):ins45734@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F1!!!!!!!!!!
+S!N46547!U7!1!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!!U7!5!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!GND!U7!6!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!!U7!2!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!!U7!3!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!N43108!U7!8!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!N43138!U7!7!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!
+S!N43116!U7!4!@\power distribution system\.schematic1(sch_1):ins46135@\2026-04-09_01-17-10\.\tps5420d.normal\(sch_1)!TPS5420D_D8_TPS5420_D_8!!!F0!!!!!!!!!!

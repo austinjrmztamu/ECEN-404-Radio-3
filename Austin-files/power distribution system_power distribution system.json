@@ -1,0 +1,109 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [
+		{
+			"Name" : "0",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\0\\",
+			"Logical" : null,
+			"Physical" : "0"
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "C1.2",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43836\\@\\ANALOG\\.\\C.Normal\\(chips):\\2\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "C2.2",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43152\\@\\ANALOG\\.\\C.Normal\\(chips):\\2\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "C20.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43404\\@\\ANALOG\\.\\C.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "C22.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43608\\@\\ANALOG\\.\\C.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "C24.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43174\\@\\ANALOG\\.\\C.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "C3.2",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43758\\@\\ANALOG\\.\\C.Normal\\(chips):\\2\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "D1.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43448\\@\\POWER DISTRIBUTION SYSTEM\\.\\Dbreak_6.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "D2.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43474\\@\\POWER DISTRIBUTION SYSTEM\\.\\Dbreak_6.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "D3.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43248\\@\\POWER DISTRIBUTION SYSTEM\\.\\Dbreak_6.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "J1.4",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS49264\\@\\PPTC041LGBN-RC\\.\\PPTC041LGBN-RC.Normal\\(chips):\\4\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "J3.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS49551\\@\\691137710002\\.\\691137710002.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "R14.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43528\\@\\ANALOG\\.\\R.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "R18.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43630\\@\\ANALOG\\.\\R.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "R21.1",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS43222\\@\\ANALOG\\.\\R.Normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		},
+		{
+			"Name" : "S1.3",
+			"C_PATH" : "@\\POWER DISTRIBUTION SYSTEM\\.\\SCHEMATIC1\\(sch_1):\\INS49002\\@\\B12AP\\.\\B12AP.Normal\\(chips):\\NC\\",
+			"Logical" : "GND",
+			"Physical" : "0"
+		}
+	]
+}
