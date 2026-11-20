@@ -1,0 +1,21 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\austi\OneDrive\Documents\College\ECEN 403\Battery Pack Simulation.net
+Start Time: Tue Apr 21 15:09:51 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node p001 is floating.
+WARNING: Node p002 is floating.
+WARNING: Node p003 is floating.
+WARNING: Node p004 is floating.
+WARNING: Node p005 is floating.
+WARNING: Node p006 is floating.
+
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.326 seconds.
+
+Files loaded:
+C:\Users\austi\OneDrive\Documents\College\ECEN 403\Battery Pack Simulation.net
+

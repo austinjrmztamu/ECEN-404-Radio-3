@@ -1,0 +1,20 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\austi\OneDrive\Documents\College\ECEN 403\Power Source Switching Citcuit.net
+Start Time: Sun Oct  4 19:31:52 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.196 seconds.
+Total iterations: 5658
+
+Files loaded:
+C:\Users\austi\OneDrive\Documents\College\ECEN 403\Power Source Switching Citcuit.net
+C:\Users\austi\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\austi\AppData\Local\LTspice\lib\sub\LT317A.sub
+

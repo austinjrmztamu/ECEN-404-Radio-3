@@ -1,0 +1,423 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C11.1          C12.1          
+                                 C13.1          C14.1          C15.1          
+                                 IC1.6          IC2.6          IC3.6          
+                                 R1.1           R4.1           R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04764       pins ADDED TO this new net
+                                 C7.2           C8.2           C9.2           
+                                 L1.1           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14279       pins ADDED TO this new net
+                                 BOOT_CAPACITOR.2 IC1.8          L1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14619       pins ADDED TO this new net
+                                 IC1.4          R1.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N15280       pins ADDED TO this new net
+                                 BOOT_CAPACITOR.1 IC1.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16168       pins ADDED TO this new net
+                                 BOOT_CAPACITOR1.2 IC2.8          
+                                 L2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16176       pins ADDED TO this new net
+                                 C10.2          C11.2          C12.2          
+                                 L2.1           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16248       pins ADDED TO this new net
+                                 BOOT_CAPACITOR1.1 IC2.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16440       pins ADDED TO this new net
+                                 IC2.4          R3.1           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17271       pins ADDED TO this new net
+                                 BOOT_CAPACITOR2.2 IC3.8          
+                                 L3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17279       pins ADDED TO this new net
+                                 C13.2          C14.2          C15.2          
+                                 L3.1           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17351       pins ADDED TO this new net
+                                 BOOT_CAPACITOR2.1 IC3.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N17543       pins ADDED TO this new net
+                                 IC3.4          R5.1           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N041940      pins ADDED TO this new net
+                                 RINTERNAL_BATTERY.2 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V_BATTERY    pins ADDED TO this new net
+                                 C1.1           C2.1           C3.1           
+                                 IC1.5          IC1.7          IC2.5          
+                                 IC2.7          IC3.5          IC3.7          
+                                 RINTERNAL_BATTERY.1 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C_CAP196_0.01UF
+ C_CAP196_1U
+ C_CAP196_10U
+ C_CAP196_47U
+ C_CAP196_100N
+ C_CAP196_220U
+ C_CAP196_470U
+ L_DISC350X175LS200X100034_10UH
+ R_AXRC05_0.12
+ R_AXRC05_3.25K
+ R_AXRC05_10K
+ TPS5420D_SOIC127P600X175-8N_TPS5420D
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BOOT_CAPACITOR1     C_CAP196_0.01UF       
+ BOOT_CAPACITOR2     C_CAP196_0.01UF       
+ BOOT_CAPACITOR      C_CAP196_0.01UF       
+ C1                  C_CAP196_470U         
+ C2                  C_CAP196_1U           
+ C3                  C_CAP196_100N         
+ C7                  C_CAP196_220U         
+ C8                  C_CAP196_10U          
+ C9                  C_CAP196_100N         
+ C10                 C_CAP196_47U          
+ C11                 C_CAP196_1U           
+ C12                 C_CAP196_100N         
+ C13                 C_CAP196_47U          
+ C14                 C_CAP196_1U           
+ C15                 C_CAP196_100N         
+ IC1                 TPS5420D_SOIC127P600X175-8N_TPS5420D 
+ IC2                 TPS5420D_SOIC127P600X175-8N_TPS5420D 
+ IC3                 TPS5420D_SOIC127P600X175-8N_TPS5420D 
+ L1                  L_DISC350X175LS200X100034_10UH 
+ L2                  L_DISC350X175LS200X100034_10UH 
+ L3                  L_DISC350X175LS200X100034_10UH 
+ R1                  R_AXRC05_10K          
+ R2                  R_AXRC05_3.25K        
+ R3                  R_AXRC05_3.25K        
+ R4                  R_AXRC05_10K          
+ R5                  R_AXRC05_3.25K        
+ R6                  R_AXRC05_10K          
+ RINTERNAL_BATTERY   R_AXRC05_0.12         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BOOT_CAPACITOR1.2                 PRIM_FILE      .\pstchip.dat
+ BOOT_CAPACITOR1.2                 SCH_BBOX       (400,350,410,370)
+ BOOT_CAPACITOR1.2                 SCH_MIRROR     (0)
+ BOOT_CAPACITOR1.2                 SCH_ORIENT     (0)
+ BOOT_CAPACITOR1.2                 XY             (400,350)
+ BOOT_CAPACITOR2.2                 PRIM_FILE      .\pstchip.dat
+ BOOT_CAPACITOR2.2                 SCH_BBOX       (400,510,410,530)
+ BOOT_CAPACITOR2.2                 SCH_MIRROR     (0)
+ BOOT_CAPACITOR2.2                 SCH_ORIENT     (0)
+ BOOT_CAPACITOR2.2                 XY             (400,510)
+ BOOT_CAPACITOR.2                 PRIM_FILE      .\pstchip.dat
+ BOOT_CAPACITOR.2                 SCH_BBOX       (400,200,410,220)
+ BOOT_CAPACITOR.2                 SCH_MIRROR     (0)
+ BOOT_CAPACITOR.2                 SCH_ORIENT     (0)
+ BOOT_CAPACITOR.2                 XY             (400,200)
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           SCH_BBOX       (460,90,470,110)
+ C1.2                           SCH_MIRROR     (0)
+ C1.2                           SCH_ORIENT     (180)
+ C1.2                           XY             (460,90)
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           SCH_BBOX       (460,110,470,130)
+ C2.2                           SCH_MIRROR     (0)
+ C2.2                           SCH_ORIENT     (180)
+ C2.2                           XY             (460,110)
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           SCH_BBOX       (460,130,470,150)
+ C3.2                           SCH_MIRROR     (0)
+ C3.2                           SCH_ORIENT     (180)
+ C3.2                           XY             (460,130)
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           SCH_BBOX       (220,220,240,230)
+ C7.2                           SCH_MIRROR     (0)
+ C7.2                           SCH_ORIENT     (90)
+ C7.2                           XY             (220,220)
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           SCH_BBOX       (240,220,260,230)
+ C8.2                           SCH_MIRROR     (0)
+ C8.2                           SCH_ORIENT     (90)
+ C8.2                           XY             (240,220)
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           SCH_BBOX       (260,220,280,230)
+ C9.2                           SCH_MIRROR     (0)
+ C9.2                           SCH_ORIENT     (90)
+ C9.2                           XY             (260,220)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C10.2                          SCH_BBOX       (220,370,240,380)
+ C10.2                          SCH_MIRROR     (0)
+ C10.2                          SCH_ORIENT     (90)
+ C10.2                          XY             (220,370)
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          SCH_BBOX       (240,370,260,380)
+ C11.2                          SCH_MIRROR     (0)
+ C11.2                          SCH_ORIENT     (90)
+ C11.2                          XY             (240,370)
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          SCH_BBOX       (260,370,280,380)
+ C12.2                          SCH_MIRROR     (0)
+ C12.2                          SCH_ORIENT     (90)
+ C12.2                          XY             (260,370)
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          SCH_BBOX       (220,530,240,540)
+ C13.2                          SCH_MIRROR     (0)
+ C13.2                          SCH_ORIENT     (90)
+ C13.2                          XY             (220,530)
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          SCH_BBOX       (240,530,260,540)
+ C14.2                          SCH_MIRROR     (0)
+ C14.2                          SCH_ORIENT     (90)
+ C14.2                          XY             (240,530)
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          SCH_BBOX       (260,530,280,540)
+ C15.2                          SCH_MIRROR     (0)
+ C15.2                          SCH_ORIENT     (90)
+ C15.2                          XY             (260,530)
+ IC1.4                          PRIM_FILE      .\pstchip.dat
+ IC1.4                          SCH_BBOX       (370,230,450,280)
+ IC1.4                          SCH_MIRROR     (0)
+ IC1.4                          SCH_ORIENT     (0)
+ IC1.4                          XY             (370,230)
+ IC2.4                          PRIM_FILE      .\pstchip.dat
+ IC2.4                          SCH_BBOX       (370,380,450,430)
+ IC2.4                          SCH_MIRROR     (0)
+ IC2.4                          SCH_ORIENT     (0)
+ IC2.4                          XY             (370,380)
+ IC3.4                          PRIM_FILE      .\pstchip.dat
+ IC3.4                          SCH_BBOX       (370,540,450,590)
+ IC3.4                          SCH_MIRROR     (0)
+ IC3.4                          SCH_ORIENT     (0)
+ IC3.4                          XY             (370,540)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L1.2                           SCH_BBOX       (390,170,430,190)
+ L1.2                           SCH_MIRROR     (0)
+ L1.2                           SCH_ORIENT     (0)
+ L1.2                           XY             (390,170)
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ L2.2                           SCH_BBOX       (390,320,430,340)
+ L2.2                           SCH_MIRROR     (0)
+ L2.2                           SCH_ORIENT     (0)
+ L2.2                           XY             (390,320)
+ L3.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           SCH_BBOX       (390,480,430,500)
+ L3.2                           SCH_MIRROR     (0)
+ L3.2                           SCH_ORIENT     (0)
+ L3.2                           XY             (390,480)
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           SCH_BBOX       (300,290,320,310)
+ R1.2                           SCH_MIRROR     (0)
+ R1.2                           SCH_ORIENT     (90)
+ R1.2                           XY             (300,290)
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           SCH_BBOX       (300,230,320,250)
+ R2.2                           SCH_MIRROR     (0)
+ R2.2                           SCH_ORIENT     (90)
+ R2.2                           XY             (300,230)
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           SCH_BBOX       (300,380,320,400)
+ R3.2                           SCH_MIRROR     (0)
+ R3.2                           SCH_ORIENT     (90)
+ R3.2                           XY             (300,380)
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           SCH_BBOX       (300,440,320,460)
+ R4.2                           SCH_MIRROR     (0)
+ R4.2                           SCH_ORIENT     (90)
+ R4.2                           XY             (300,440)
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           SCH_BBOX       (300,540,320,560)
+ R5.2                           SCH_MIRROR     (0)
+ R5.2                           SCH_ORIENT     (90)
+ R5.2                           XY             (300,540)
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           SCH_BBOX       (300,600,320,620)
+ R6.2                           SCH_MIRROR     (0)
+ R6.2                           SCH_ORIENT     (90)
+ R6.2                           XY             (300,600)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RINTERNAL_BATTERY.2                 PRIM_FILE      .\pstchip.dat
+ RINTERNAL_BATTERY.2                 SCH_BBOX       (490,80,510,100)
+ RINTERNAL_BATTERY.2                 SCH_MIRROR     (0)
+ RINTERNAL_BATTERY.2                 SCH_ORIENT     (90)
+ RINTERNAL_BATTERY.2                 XY             (490,80)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BOOT_CAPACITOR1.1                 SCH_LOC        (400,360)
+ BOOT_CAPACITOR1.2                 SCH_LOC        (410,360)
+ BOOT_CAPACITOR2.1                 SCH_LOC        (400,520)
+ BOOT_CAPACITOR2.2                 SCH_LOC        (410,520)
+ BOOT_CAPACITOR.1                 SCH_LOC        (400,210)
+ BOOT_CAPACITOR.2                 SCH_LOC        (410,210)
+ C1.1                           SCH_LOC        (470,100)
+ C1.2                           SCH_LOC        (460,100)
+ C2.1                           SCH_LOC        (470,120)
+ C2.2                           SCH_LOC        (460,120)
+ C3.1                           SCH_LOC        (470,140)
+ C3.2                           SCH_LOC        (460,140)
+ C7.1                           SCH_LOC        (230,230)
+ C7.2                           SCH_LOC        (230,220)
+ C8.1                           SCH_LOC        (250,230)
+ C8.2                           SCH_LOC        (250,220)
+ C9.1                           SCH_LOC        (270,230)
+ C9.2                           SCH_LOC        (270,220)
+ C10.1                          SCH_LOC        (230,380)
+ C10.2                          SCH_LOC        (230,370)
+ C11.1                          SCH_LOC        (250,380)
+ C11.2                          SCH_LOC        (250,370)
+ C12.1                          SCH_LOC        (270,380)
+ C12.2                          SCH_LOC        (270,370)
+ C13.1                          SCH_LOC        (230,540)
+ C13.2                          SCH_LOC        (230,530)
+ C14.1                          SCH_LOC        (250,540)
+ C14.2                          SCH_LOC        (250,530)
+ C15.1                          SCH_LOC        (270,540)
+ C15.2                          SCH_LOC        (270,530)
+ IC1.1                          SCH_LOC        (370,240)
+ IC1.4                          SCH_LOC        (370,270)
+ IC1.5                          SCH_LOC        (450,270)
+ IC1.6                          SCH_LOC        (450,260)
+ IC1.7                          SCH_LOC        (450,250)
+ IC1.8                          SCH_LOC        (450,240)
+ IC2.1                          SCH_LOC        (370,390)
+ IC2.4                          SCH_LOC        (370,420)
+ IC2.5                          SCH_LOC        (450,420)
+ IC2.6                          SCH_LOC        (450,410)
+ IC2.7                          SCH_LOC        (450,400)
+ IC2.8                          SCH_LOC        (450,390)
+ IC3.1                          SCH_LOC        (370,550)
+ IC3.4                          SCH_LOC        (370,580)
+ IC3.5                          SCH_LOC        (450,580)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  c:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Tue Apr  7 15:01:19 2026  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC3.6                          SCH_LOC        (450,570)
+ IC3.7                          SCH_LOC        (450,560)
+ IC3.8                          SCH_LOC        (450,550)
+ L1.1                           SCH_LOC        (390,190)
+ L1.2                           SCH_LOC        (430,190)
+ L2.1                           SCH_LOC        (390,340)
+ L2.2                           SCH_LOC        (430,340)
+ L3.1                           SCH_LOC        (390,500)
+ L3.2                           SCH_LOC        (430,500)
+ R1.1                           SCH_LOC        (310,310)
+ R1.2                           SCH_LOC        (310,290)
+ R2.1                           SCH_LOC        (310,250)
+ R2.2                           SCH_LOC        (310,230)
+ R3.1                           SCH_LOC        (310,400)
+ R3.2                           SCH_LOC        (310,380)
+ R4.1                           SCH_LOC        (310,460)
+ R4.2                           SCH_LOC        (310,440)
+ R5.1                           SCH_LOC        (310,560)
+ R5.2                           SCH_LOC        (310,540)
+ R6.1                           SCH_LOC        (310,620)
+ R6.2                           SCH_LOC        (310,600)
+ RINTERNAL_BATTERY.1                 SCH_LOC        (500,100)
+ RINTERNAL_BATTERY.2                 SCH_LOC        (500,80)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      68                                        |
+|       Comp definitions added:      12                                        |
+|       Components added      :      28                                        |
+|       Pin property added    :      68                                        |
+|       Slot property added   :     140                                        |
+|                                                                              |
+|   Total ECO changes reported:     316                                        |
+|------------------------------------------------------------------------------|
