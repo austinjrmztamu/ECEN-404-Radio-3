@@ -1,0 +1,1068 @@
+
+**** 04/21/26 12:02:07 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Voltage Rail Test"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Voltage Rail Test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "C:\Users\austi\OneDrive\Documents\College\ECEN 403\Cadence Library\TPS5420_PSPICE_TRANS\TPS5420_TRANS.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWER DISTRIBUTION SYSTEM SIMULATION
+R_R17         N38093 VOUT_6V  10k TC=0,0 
+X_U4         N417810 N38638 0 0 0 N38776 N04234 N38780 TPS5420_TRANS PARAMS:
++  MODE=0
+R_Rinternal_battery         N04234 N419330  0.12 TC=0,0 
+R_R13         N36463 VOUT_5V  10k TC=0,0 
+C_C3         N04234 0  100n  TC=0,0 
+C_C20         0 VOUT_5V  100uF  TC=0,0 
+C_C19         N415230 N36108  0.01uF  TC=0,0 
+C_C2         N04234 0  1u  TC=0,0 
+C_C22         0 VOUT_6V  100uF  TC=0,0 
+R_R21         0 N38780  5.9k TC=0,0 
+R_R20         N38780 VOUT_3.3V  10k TC=0,0 
+R_R15         N37351 0  1G TC=0,0 
+V_Vbattery_pack         N419330 0 12.8Vdc
+R_R14         0 N36463  3.24k TC=0,0 
+X_U2         N415230 N37351 0 0 0 N36108 N04234 N36463 TPS5420_TRANS PARAMS:
++  MODE=0
+C_C21         N418010 N38089  0.01uF  TC=0,0 
+L_L4         N38776 VOUT_3.3V  33uH  TC=0,0 
+R_R18         0 N38093  2.55k TC=0,0 
+L_L3         N38089 VOUT_6V  33uH  TC=0,0 
+R_R16         N37951 0  1G TC=0,0 
+C_C24         0 VOUT_3.3V  100uF  TC=0,0 
+C_C1         N04234 0  470u  TC=0,0 
+X_U3         N418010 N37951 0 0 0 N38089 N04234 N38093 TPS5420_TRANS PARAMS:
++  MODE=0
+C_C23         N417810 N38776  0.01uF  TC=0,0 
+R_R19         N38638 0  1G TC=0,0 
+L_L2         N36108 VOUT_5V  33uH  TC=0,0 
+D_D4         0 N36108 Dbreak 
+D_D5         0 N38089 Dbreak 
+D_D6         0 N38776 Dbreak 
+
+**** RESUMING "Voltage Rail Test.cir" ****
+.END
+
+**** 04/21/26 12:02:07 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Voltage Rail Test"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 04/21/26 12:02:07 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Voltage Rail Test"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N04234)   12.8000 (N36108)     .0169 (N36463)     .0041 (N37351)   12.8580     
+
+(N37951)   12.8580 (N38089)     .0160 (N38093)     .0033 (N38638)   12.8580     
+
+(N38776)     .0203 (N38780)     .0075 (N415230)    8.0169                       
+
+(N417810)    8.0203                   (N418010)    8.0160                       
+
+(N419330)   12.8000                   (VOUT_5V)     .0169                       
+
+(VOUT_6V)     .0160                   (VOUT_3.3V)     .0203                     
+
+(X_U2.EA_INT) 242.8E-06               (X_U3.EA_INT) 253.5E-06                   
+
+(X_U4.EA_INT) 209.3E-06               (X_U2.CLK_INT)    1.0000                  
+
+(X_U2.OVP_INT)    1.0000              (X_U2.PWM_INT)    0.0000                  
+
+(X_U2.REF_INT) 2.443E-06              (X_U3.CLK_INT)    1.0000                  
+
+(X_U3.OVP_INT)    1.0000              (X_U3.PWM_INT)    0.0000                  
+
+(X_U3.REF_INT) 2.443E-06              (X_U4.CLK_INT)    1.0000                  
+
+(X_U4.OVP_INT)    1.0000              (X_U4.PWM_INT)    0.0000                  
+
+(X_U4.REF_INT) 2.443E-06              (X_U2.ENA_UVLO)    1.0000                 
+
+(X_U2.RAMP_INT)     .3000             (X_U3.ENA_UVLO)    1.0000                 
+
+(X_U3.RAMP_INT)     .3000             (X_U4.ENA_UVLO)    1.0000                 
+
+(X_U4.RAMP_INT)     .3000             (X_U2.ILIMIT_INT)    0.0000               
+
+(X_U3.ILIMIT_INT)    0.0000           (X_U4.ILIMIT_INT)    0.0000               
+
+(X_U2.HICCUPB_INT)    1.0000          (X_U3.HICCUPB_INT)    1.0000              
+
+(X_U4.HICCUPB_INT)    1.0000          (X_U2.ENA_UVLO_INT)    1.0000             
+
+(X_U2.PWM_PFET_INT)    0.0000         (X_U2.U_OVP_N04997) 2.749E-06             
+
+(X_U2.U_OVP_N05387)    1.0000         (X_U2.U_OVP_N05674)    1.0000             
+
+(X_U3.ENA_UVLO_INT)    1.0000         (X_U3.PWM_PFET_INT)    0.0000             
+
+(X_U3.U_OVP_N04997) 2.748E-06         (X_U3.U_OVP_N05387)    1.0000             
+
+(X_U3.U_OVP_N05674)    1.0000         (X_U4.ENA_UVLO_INT)    1.0000             
+
+(X_U4.PWM_PFET_INT)    0.0000         (X_U4.U_OVP_N04997) 2.749E-06             
+
+(X_U4.U_OVP_N05387)    1.0000         (X_U4.U_OVP_N05674)    1.0000             
+
+(X_U2.CONS_RAMP_INT)    0.0000        (X_U3.CONS_RAMP_INT)    0.0000            
+
+(X_U4.CONS_RAMP_INT)    0.0000        (X_U2.U_DIG_LOGIC_QB)     .9990           
+
+(X_U3.U_DIG_LOGIC_QB)     .9990       (X_U4.U_DIG_LOGIC_QB)     .9990           
+
+(X_U2.U_HICCUP_VDC_1V)    1.0000      (X_U2.U_OVP_REF_IN_UP) 2.749E-06          
+
+(X_U2.X_U_OVP_U1.Yint)    1.0000      (X_U3.U_HICCUP_VDC_1V)    1.0000          
+
+(X_U3.U_OVP_REF_IN_UP) 2.748E-06      (X_U3.X_U_OVP_U1.Yint)    1.0000          
+
+(X_U4.U_HICCUP_VDC_1V)    1.0000      (X_U4.U_OVP_REF_IN_UP) 2.749E-06          
+
+(X_U4.X_U_OVP_U1.Yint)    1.0000      (X_U2.ILIMIT_PULSE_INT)    0.0000         
+
+(X_U2.U_HICCUP_H_CHECK) 2.083E-09     (X_U2.U_PWM_GEN_N03570)    0.0000         
+
+(X_U3.ILIMIT_PULSE_INT)    0.0000     (X_U3.U_HICCUP_H_CHECK) 2.083E-09         
+
+(X_U3.U_PWM_GEN_N03570)    0.0000     (X_U4.ILIMIT_PULSE_INT)    0.0000         
+
+(X_U4.U_HICCUP_H_CHECK) 2.083E-09     (X_U4.U_PWM_GEN_N03570)    0.0000         
+
+(X_U2.U_ENA_UVLO_N02384)    5.3000    (X_U2.U_ENA_UVLO_N02391)     .3300        
+
+(X_U2.U_ENA_UVLO_N02651)    1.1500    (X_U2.U_ENA_UVLO_N02659)     .4500        
+
+(X_U2.U_RAMP_GEN_N09401)    0.0000    (X_U2.X_U_ENA_UVLO_U8.1)    1.0000        
+
+(X_U2.X_U_ENA_UVLO_U9.1)    1.0000    (X_U3.U_ENA_UVLO_N02384)    5.3000        
+
+(X_U3.U_ENA_UVLO_N02391)     .3300    (X_U3.U_ENA_UVLO_N02651)    1.1500        
+
+(X_U3.U_ENA_UVLO_N02659)     .4500    (X_U3.U_RAMP_GEN_N09401)    0.0000        
+
+(X_U3.X_U_ENA_UVLO_U8.1)    1.0000    (X_U3.X_U_ENA_UVLO_U9.1)    1.0000        
+
+(X_U4.U_ENA_UVLO_N02384)    5.3000    (X_U4.U_ENA_UVLO_N02391)     .3300        
+
+(X_U4.U_ENA_UVLO_N02651)    1.1500    (X_U4.U_ENA_UVLO_N02659)     .4500        
+
+(X_U4.U_RAMP_GEN_N09401)    0.0000    (X_U4.X_U_ENA_UVLO_U8.1)    1.0000        
+
+(X_U4.X_U_ENA_UVLO_U9.1)    1.0000    (X_U2.U_DIG_LOGIC_N06622)    0.0000       
+
+(X_U2.U_DIG_LOGIC_N06657)    1.0000   (X_U2.U_DIG_LOGIC_N06762)-3.463E-15       
+
+(X_U2.U_DIG_LOGIC_N06802)    0.0000   (X_U2.U_DIG_LOGIC_VDC_1V)    1.0000       
+
+(X_U2.U_ENA_UVLO_ENA_INT)    1.0000   (X_U2.U_ERROR_AMP_N01760)     .0041       
+
+(X_U2.U_ERROR_AMP_N01952) 242.8E-06   (X_U2.U_ERROR_AMP_N02024)     .0056       
+
+(X_U2.U_HICCUP_N14356173)    1.0000   (X_U2.U_HICCUP_N14356233)    0.0000       
+
+(X_U2.U_HICCUP_N14356257)    0.0000   (X_U2.U_HICCUP_N14356263)    0.0000       
+
+(X_U2.U_HICCUP_N14356275) 10.00E-15   (X_U2.U_HICCUP_N14356283)    1.5000       
+
+(X_U2.U_HICCUP_N14356319)    5.0000   (X_U2.U_HICCUP_N14356379)    0.0000       
+
+(X_U2.U_HICCUP_N14356397)    1.0000   (X_U2.U_HICCUP_N14356427)   25.0000       
+
+(X_U2.U_HICCUP_N14356509)    0.0000   (X_U2.U_HICCUP_N14356547)    0.0000       
+
+(X_U2.U_HICCUP_N14356559)    0.0000   (X_U2.U_HICCUP_N14356641)    0.0000       
+
+(X_U2.U_HICCUP_N14356649)    1.0000   (X_U2.U_HICCUP_N14356765)    1.0000       
+
+(X_U2.U_HICCUP_N14356795)    0.0000   (X_U2.U_HICCUP_N14356829)    0.0000       
+
+(X_U2.U_HICCUP_N14356835)    0.0000   (X_U2.U_HICCUP_N14356915) 999.0E-06       
+
+(X_U2.U_HICCUP_N14356981)    1.0000   (X_U2.U_HICCUP_N14357067)     .5005       
+
+(X_U2.U_HICCUP_N14357133)    0.0000   (X_U2.U_HICCUP_N14357171)   30.0000       
+
+(X_U2.X_U_ERROR_AMP_U1.7)     .1217   (X_U2.X_U_ERROR_AMP_U1.8)    1.6500       
+
+(X_U2.X_U_ERROR_AMP_U1.9)     .1217   (X_U2.X_U_HICCUP_U30.MY5)    1.0000       
+
+(X_U2.X_U_HICCUP_U30.Qbr)    1.0000   (X_U2.X_U_HICCUP_U30.Qqq) 2.002E-15       
+
+(X_U3.U_DIG_LOGIC_N06622)    0.0000   (X_U3.U_DIG_LOGIC_N06657)    1.0000       
+
+(X_U3.U_DIG_LOGIC_N06762)-3.463E-15   (X_U3.U_DIG_LOGIC_N06802)    0.0000       
+
+(X_U3.U_DIG_LOGIC_VDC_1V)    1.0000   (X_U3.U_ENA_UVLO_ENA_INT)    1.0000       
+
+(X_U3.U_ERROR_AMP_N01760)     .0033   (X_U3.U_ERROR_AMP_N01952) 253.5E-06       
+
+(X_U3.U_ERROR_AMP_N02024)     .0049   (X_U3.U_HICCUP_N14356173)    1.0000       
+
+(X_U3.U_HICCUP_N14356233)    0.0000   (X_U3.U_HICCUP_N14356257)    0.0000       
+
+(X_U3.U_HICCUP_N14356263)    0.0000   (X_U3.U_HICCUP_N14356275) 10.00E-15       
+
+(X_U3.U_HICCUP_N14356283)    1.5000   (X_U3.U_HICCUP_N14356319)    5.0000       
+
+(X_U3.U_HICCUP_N14356379)    0.0000   (X_U3.U_HICCUP_N14356397)    1.0000       
+
+(X_U3.U_HICCUP_N14356427)   25.0000   (X_U3.U_HICCUP_N14356509)    0.0000       
+
+(X_U3.U_HICCUP_N14356547)    0.0000   (X_U3.U_HICCUP_N14356559)    0.0000       
+
+(X_U3.U_HICCUP_N14356641)    0.0000   (X_U3.U_HICCUP_N14356649)    1.0000       
+
+(X_U3.U_HICCUP_N14356765)    1.0000   (X_U3.U_HICCUP_N14356795)    0.0000       
+
+(X_U3.U_HICCUP_N14356829)    0.0000   (X_U3.U_HICCUP_N14356835)    0.0000       
+
+(X_U3.U_HICCUP_N14356915) 999.0E-06   (X_U3.U_HICCUP_N14356981)    1.0000       
+
+(X_U3.U_HICCUP_N14357067)     .5005   (X_U3.U_HICCUP_N14357133)    0.0000       
+
+(X_U3.U_HICCUP_N14357171)   30.0000   (X_U3.X_U_ERROR_AMP_U1.7)     .1270       
+
+(X_U3.X_U_ERROR_AMP_U1.8)    1.6500   (X_U3.X_U_ERROR_AMP_U1.9)     .1270       
+
+(X_U3.X_U_HICCUP_U30.MY5)    1.0000   (X_U3.X_U_HICCUP_U30.Qbr)    1.0000       
+
+(X_U3.X_U_HICCUP_U30.Qqq) 2.002E-15   (X_U4.U_DIG_LOGIC_N06622)    0.0000       
+
+(X_U4.U_DIG_LOGIC_N06657)    1.0000   (X_U4.U_DIG_LOGIC_N06762)-3.463E-15       
+
+(X_U4.U_DIG_LOGIC_N06802)    0.0000   (X_U4.U_DIG_LOGIC_VDC_1V)    1.0000       
+
+(X_U4.U_ENA_UVLO_ENA_INT)    1.0000   (X_U4.U_ERROR_AMP_N01760)     .0075       
+
+(X_U4.U_ERROR_AMP_N01952) 209.3E-06   (X_U4.U_ERROR_AMP_N02024)     .0086       
+
+(X_U4.U_HICCUP_N14356173)    1.0000   (X_U4.U_HICCUP_N14356233)    0.0000       
+
+(X_U4.U_HICCUP_N14356257)    0.0000   (X_U4.U_HICCUP_N14356263)    0.0000       
+
+(X_U4.U_HICCUP_N14356275) 10.00E-15   (X_U4.U_HICCUP_N14356283)    1.5000       
+
+(X_U4.U_HICCUP_N14356319)    5.0000   (X_U4.U_HICCUP_N14356379)    0.0000       
+
+(X_U4.U_HICCUP_N14356397)    1.0000   (X_U4.U_HICCUP_N14356427)   25.0000       
+
+(X_U4.U_HICCUP_N14356509)    0.0000   (X_U4.U_HICCUP_N14356547)    0.0000       
+
+(X_U4.U_HICCUP_N14356559)    0.0000   (X_U4.U_HICCUP_N14356641)    0.0000       
+
+(X_U4.U_HICCUP_N14356649)    1.0000   (X_U4.U_HICCUP_N14356765)    1.0000       
+
+(X_U4.U_HICCUP_N14356795)    0.0000   (X_U4.U_HICCUP_N14356829)    0.0000       
+
+(X_U4.U_HICCUP_N14356835)    0.0000   (X_U4.U_HICCUP_N14356915) 999.0E-06       
+
+(X_U4.U_HICCUP_N14356981)    1.0000   (X_U4.U_HICCUP_N14357067)     .5005       
+
+(X_U4.U_HICCUP_N14357133)    0.0000   (X_U4.U_HICCUP_N14357171)   30.0000       
+
+(X_U4.X_U_ERROR_AMP_U1.7)     .1049   (X_U4.X_U_ERROR_AMP_U1.8)    1.6500       
+
+(X_U4.X_U_ERROR_AMP_U1.9)     .1049   (X_U4.X_U_HICCUP_U30.MY5)    1.0000       
+
+(X_U4.X_U_HICCUP_U30.Qbr)    1.0000   (X_U4.X_U_HICCUP_U30.Qqq) 2.002E-15       
+
+(X_U2.U_ENA_UVLO_UVLO_INT)    1.0000  (X_U2.U_ERROR_AMP_N128290)    3.3000      
+
+(X_U2.U_HICCUP_HICCUP_INT)    0.0000  (X_U2.X_U_ERROR_AMP_U1.10) 2.443E-06      
+
+(X_U2.X_U_ERROR_AMP_U1.11)    2.3314  (X_U2.X_U_ERROR_AMP_U1.12)     .9686      
+
+(X_U2.X_U_HICCUP_U30.Qint) 2.002E-15  (X_U2.X_U_HICCUP_U625.my5)    5.0000      
+
+(X_U2.X_U_HICCUP_U625.qbr)    1.0000  (X_U2.X_U_HICCUP_U625.qqq) 10.00E-15      
+
+(X_U2.X_U_PWM_GEN_U1.Yint)    0.0000  (X_U3.U_ENA_UVLO_UVLO_INT)    1.0000      
+
+(X_U3.U_ERROR_AMP_N128290)    3.3000  (X_U3.U_HICCUP_HICCUP_INT)    0.0000      
+
+(X_U3.X_U_ERROR_AMP_U1.10) 2.443E-06  (X_U3.X_U_ERROR_AMP_U1.11)    2.3314      
+
+(X_U3.X_U_ERROR_AMP_U1.12)     .9686  (X_U3.X_U_HICCUP_U30.Qint) 2.002E-15      
+
+(X_U3.X_U_HICCUP_U625.my5)    5.0000  (X_U3.X_U_HICCUP_U625.qbr)    1.0000      
+
+(X_U3.X_U_HICCUP_U625.qqq) 10.00E-15  (X_U3.X_U_PWM_GEN_U1.Yint)    0.0000      
+
+(X_U4.U_ENA_UVLO_UVLO_INT)    1.0000  (X_U4.U_ERROR_AMP_N128290)    3.3000      
+
+(X_U4.U_HICCUP_HICCUP_INT)    0.0000  (X_U4.X_U_ERROR_AMP_U1.10) 2.443E-06      
+
+(X_U4.X_U_ERROR_AMP_U1.11)    2.3314  (X_U4.X_U_ERROR_AMP_U1.12)     .9686      
+
+(X_U4.X_U_HICCUP_U30.Qint) 2.002E-15  (X_U4.X_U_HICCUP_U625.my5)    5.0000      
+
+(X_U4.X_U_HICCUP_U625.qbr)    1.0000  (X_U4.X_U_HICCUP_U625.qqq) 10.00E-15      
+
+(X_U4.X_U_PWM_GEN_U1.Yint)    0.0000  (X_U2.U_DIG_LOGIC_Q_ILIMIT)    0.0000     
+
+(X_U2.U_HICCUP_RESET_LATCH)    0.0000 (X_U2.U_PFET_ILIMIT_N02026)     .0169     
+
+(X_U2.X_U_DIG_LOGIC_U2.MY5)    1.0000 (X_U2.X_U_DIG_LOGIC_U2.Qbr)    1.0000     
+
+(X_U2.X_U_DIG_LOGIC_U2.Qqq)    -.0100 (X_U2.X_U_DIG_LOGIC_U8.my5)    5.0000     
+
+(X_U2.X_U_DIG_LOGIC_U8.qbr)    1.0000 (X_U2.X_U_DIG_LOGIC_U8.qqq) 10.00E-15     
+
+(X_U2.X_U_DIG_LOGIC_U9.my5)    5.0000 (X_U2.X_U_DIG_LOGIC_U9.qbr)    1.0000     
+
+(X_U2.X_U_DIG_LOGIC_U9.qqq) 10.00E-15 (X_U2.X_U_ENA_UVLO_U8.INM1)   -7.5000     
+
+(X_U2.X_U_ENA_UVLO_U8.INP1)    0.0000 (X_U2.X_U_ENA_UVLO_U8.INP2)     .3300     
+
+(X_U2.X_U_ENA_UVLO_U9.INM1)  -11.7080 (X_U2.X_U_ENA_UVLO_U9.INP1)    0.0000     
+
+(X_U2.X_U_ENA_UVLO_U9.INP2)     .4500 (X_U2.X_U_HICCUP_U12.YINT1)    1.0000     
+
+(X_U2.X_U_HICCUP_U12.YINT2)    1.0000 (X_U2.X_U_HICCUP_U12.YINT3)    0.0000     
+
+(X_U2.X_U_HICCUP_U13.YINT1)    0.0000 (X_U2.X_U_HICCUP_U13.YINT2)    0.0000     
+
+(X_U2.X_U_HICCUP_U13.YINT3)    0.0000 (X_U2.X_U_HICCUP_U14.YINT1)    0.0000     
+
+(X_U2.X_U_HICCUP_U14.YINT2)    0.0000 (X_U2.X_U_HICCUP_U14.YINT3)    0.0000     
+
+(X_U2.X_U_HICCUP_U30.MYVSS)    0.0000 (X_U2.X_U_HICCUP_U30.Qqqd1)    0.0000     
+
+(X_U2.X_U_HICCUP_U609.Yint)    0.0000 (X_U2.X_U_HICCUP_U612.Yint)    0.0000     
+
+(X_U2.X_U_HICCUP_U618.YINT)    0.0000 (X_U2.X_U_HICCUP_U619.YINT)    1.0000     
+
+(X_U2.X_U_HICCUP_U620.YINT)    0.0000 (X_U2.X_U_HICCUP_U622.YINT)    1.0000     
+
+(X_U2.X_U_HICCUP_U624.YINT)    1.0000 (X_U2.X_U_HICCUP_U625.qint) 10.00E-15     
+
+(X_U3.U_DIG_LOGIC_Q_ILIMIT)    0.0000 (X_U3.U_HICCUP_RESET_LATCH)    0.0000     
+
+(X_U3.U_PFET_ILIMIT_N02026)     .0160 (X_U3.X_U_DIG_LOGIC_U2.MY5)    1.0000     
+
+(X_U3.X_U_DIG_LOGIC_U2.Qbr)    1.0000 (X_U3.X_U_DIG_LOGIC_U2.Qqq)    -.0100     
+
+(X_U3.X_U_DIG_LOGIC_U8.my5)    5.0000 (X_U3.X_U_DIG_LOGIC_U8.qbr)    1.0000     
+
+(X_U3.X_U_DIG_LOGIC_U8.qqq) 10.00E-15 (X_U3.X_U_DIG_LOGIC_U9.my5)    5.0000     
+
+(X_U3.X_U_DIG_LOGIC_U9.qbr)    1.0000 (X_U3.X_U_DIG_LOGIC_U9.qqq) 10.00E-15     
+
+(X_U3.X_U_ENA_UVLO_U8.INM1)   -7.5000 (X_U3.X_U_ENA_UVLO_U8.INP1)    0.0000     
+
+(X_U3.X_U_ENA_UVLO_U8.INP2)     .3300 (X_U3.X_U_ENA_UVLO_U9.INM1)  -11.7080     
+
+(X_U3.X_U_ENA_UVLO_U9.INP1)    0.0000 (X_U3.X_U_ENA_UVLO_U9.INP2)     .4500     
+
+(X_U3.X_U_HICCUP_U12.YINT1)    1.0000 (X_U3.X_U_HICCUP_U12.YINT2)    1.0000     
+
+(X_U3.X_U_HICCUP_U12.YINT3)    0.0000 (X_U3.X_U_HICCUP_U13.YINT1)    0.0000     
+
+(X_U3.X_U_HICCUP_U13.YINT2)    0.0000 (X_U3.X_U_HICCUP_U13.YINT3)    0.0000     
+
+(X_U3.X_U_HICCUP_U14.YINT1)    0.0000 (X_U3.X_U_HICCUP_U14.YINT2)    0.0000     
+
+(X_U3.X_U_HICCUP_U14.YINT3)    0.0000 (X_U3.X_U_HICCUP_U30.MYVSS)    0.0000     
+
+(X_U3.X_U_HICCUP_U30.Qqqd1)    0.0000 (X_U3.X_U_HICCUP_U609.Yint)    0.0000     
+
+(X_U3.X_U_HICCUP_U612.Yint)    0.0000 (X_U3.X_U_HICCUP_U618.YINT)    0.0000     
+
+(X_U3.X_U_HICCUP_U619.YINT)    1.0000 (X_U3.X_U_HICCUP_U620.YINT)    0.0000     
+
+(X_U3.X_U_HICCUP_U622.YINT)    1.0000 (X_U3.X_U_HICCUP_U624.YINT)    1.0000     
+
+(X_U3.X_U_HICCUP_U625.qint) 10.00E-15 (X_U4.U_DIG_LOGIC_Q_ILIMIT)    0.0000     
+
+(X_U4.U_HICCUP_RESET_LATCH)    0.0000 (X_U4.U_PFET_ILIMIT_N02026)     .0203     
+
+(X_U4.X_U_DIG_LOGIC_U2.MY5)    1.0000 (X_U4.X_U_DIG_LOGIC_U2.Qbr)    1.0000     
+
+(X_U4.X_U_DIG_LOGIC_U2.Qqq)    -.0100 (X_U4.X_U_DIG_LOGIC_U8.my5)    5.0000     
+
+(X_U4.X_U_DIG_LOGIC_U8.qbr)    1.0000 (X_U4.X_U_DIG_LOGIC_U8.qqq) 10.00E-15     
+
+(X_U4.X_U_DIG_LOGIC_U9.my5)    5.0000 (X_U4.X_U_DIG_LOGIC_U9.qbr)    1.0000     
+
+(X_U4.X_U_DIG_LOGIC_U9.qqq) 10.00E-15 (X_U4.X_U_ENA_UVLO_U8.INM1)   -7.5000     
+
+(X_U4.X_U_ENA_UVLO_U8.INP1)    0.0000 (X_U4.X_U_ENA_UVLO_U8.INP2)     .3300     
+
+(X_U4.X_U_ENA_UVLO_U9.INM1)  -11.7080 (X_U4.X_U_ENA_UVLO_U9.INP1)    0.0000     
+
+(X_U4.X_U_ENA_UVLO_U9.INP2)     .4500 (X_U4.X_U_HICCUP_U12.YINT1)    1.0000     
+
+(X_U4.X_U_HICCUP_U12.YINT2)    1.0000 (X_U4.X_U_HICCUP_U12.YINT3)    0.0000     
+
+(X_U4.X_U_HICCUP_U13.YINT1)    0.0000 (X_U4.X_U_HICCUP_U13.YINT2)    0.0000     
+
+(X_U4.X_U_HICCUP_U13.YINT3)    0.0000 (X_U4.X_U_HICCUP_U14.YINT1)    0.0000     
+
+(X_U4.X_U_HICCUP_U14.YINT2)    0.0000 (X_U4.X_U_HICCUP_U14.YINT3)    0.0000     
+
+(X_U4.X_U_HICCUP_U30.MYVSS)    0.0000 (X_U4.X_U_HICCUP_U30.Qqqd1)    0.0000     
+
+(X_U4.X_U_HICCUP_U609.Yint)    0.0000 (X_U4.X_U_HICCUP_U612.Yint)    0.0000     
+
+(X_U4.X_U_HICCUP_U618.YINT)    0.0000 (X_U4.X_U_HICCUP_U619.YINT)    1.0000     
+
+(X_U4.X_U_HICCUP_U620.YINT)    0.0000 (X_U4.X_U_HICCUP_U622.YINT)    1.0000     
+
+(X_U4.X_U_HICCUP_U624.YINT)    1.0000 (X_U4.X_U_HICCUP_U625.qint) 10.00E-15     
+
+(X_U2.U_DIG_LOGIC_LATCH_CLK)    0.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14296672)    1.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14322563)    0.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14327543)    0.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14330255)    1.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14336173)    0.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14337691) 999.0E-06                                          
+
+(X_U2.U_DIG_LOGIC_N14337711)    1.0000                                          
+
+(X_U2.U_DIG_LOGIC_N14337715)    0.0000                                          
+
+(X_U2.X_U_DIG_LOGIC_U1.YINT)    1.0000                                          
+
+(X_U2.X_U_DIG_LOGIC_U2.Qint)    -.0100                                          
+
+(X_U2.X_U_DIG_LOGIC_U7.YINT)    0.0000                                          
+
+(X_U2.X_U_DIG_LOGIC_U8.qint) 10.00E-15                                          
+
+(X_U2.X_U_DIG_LOGIC_U9.qint) 10.00E-15                                          
+
+(X_U2.X_U_ERROR_AMP_U1.vddi)    3.3000                                          
+
+(X_U2.X_U_ERROR_AMP_U1.vssi)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U607.YINT1)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U607.YINT2)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U607.YINT3)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U610.YINT1)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U610.YINT2)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U610.YINT3)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U614.YINT1)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U614.YINT2)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U614.YINT3)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U617.YINT1)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U617.YINT2)    1.0000                                          
+
+(X_U2.X_U_HICCUP_U617.YINT3)    0.0000                                          
+
+(X_U2.X_U_HICCUP_U625.qqqd1)    0.0000                                          
+
+(X_U3.U_DIG_LOGIC_LATCH_CLK)    0.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14296672)    1.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14322563)    0.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14327543)    0.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14330255)    1.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14336173)    0.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14337691) 999.0E-06                                          
+
+(X_U3.U_DIG_LOGIC_N14337711)    1.0000                                          
+
+(X_U3.U_DIG_LOGIC_N14337715)    0.0000                                          
+
+(X_U3.X_U_DIG_LOGIC_U1.YINT)    1.0000                                          
+
+(X_U3.X_U_DIG_LOGIC_U2.Qint)    -.0100                                          
+
+(X_U3.X_U_DIG_LOGIC_U7.YINT)    0.0000                                          
+
+(X_U3.X_U_DIG_LOGIC_U8.qint) 10.00E-15                                          
+
+(X_U3.X_U_DIG_LOGIC_U9.qint) 10.00E-15                                          
+
+(X_U3.X_U_ERROR_AMP_U1.vddi)    3.3000                                          
+
+(X_U3.X_U_ERROR_AMP_U1.vssi)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U607.YINT1)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U607.YINT2)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U607.YINT3)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U610.YINT1)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U610.YINT2)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U610.YINT3)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U614.YINT1)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U614.YINT2)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U614.YINT3)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U617.YINT1)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U617.YINT2)    1.0000                                          
+
+(X_U3.X_U_HICCUP_U617.YINT3)    0.0000                                          
+
+(X_U3.X_U_HICCUP_U625.qqqd1)    0.0000                                          
+
+(X_U4.U_DIG_LOGIC_LATCH_CLK)    0.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14296672)    1.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14322563)    0.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14327543)    0.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14330255)    1.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14336173)    0.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14337691) 999.0E-06                                          
+
+(X_U4.U_DIG_LOGIC_N14337711)    1.0000                                          
+
+(X_U4.U_DIG_LOGIC_N14337715)    0.0000                                          
+
+(X_U4.X_U_DIG_LOGIC_U1.YINT)    1.0000                                          
+
+(X_U4.X_U_DIG_LOGIC_U2.Qint)    -.0100                                          
+
+(X_U4.X_U_DIG_LOGIC_U7.YINT)    0.0000                                          
+
+(X_U4.X_U_DIG_LOGIC_U8.qint) 10.00E-15                                          
+
+(X_U4.X_U_DIG_LOGIC_U9.qint) 10.00E-15                                          
+
+(X_U4.X_U_ERROR_AMP_U1.vddi)    3.3000                                          
+
+(X_U4.X_U_ERROR_AMP_U1.vssi)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U607.YINT1)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U607.YINT2)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U607.YINT3)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U610.YINT1)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U610.YINT2)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U610.YINT3)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U614.YINT1)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U614.YINT2)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U614.YINT3)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U617.YINT1)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U617.YINT2)    1.0000                                          
+
+(X_U4.X_U_HICCUP_U617.YINT3)    0.0000                                          
+
+(X_U4.X_U_HICCUP_U625.qqqd1)    0.0000                                          
+
+(X_U2.U_HICCUP_EN_UVLO_PULSE)    0.0000                                         
+
+(X_U2.U_SOFT_START_N14296185) 2.442E-06                                         
+
+(X_U2.U_SOFT_START_N14296271) 2.442E-06                                         
+
+(X_U2.U_SOFT_START_N14297002)    1.2210                                         
+
+(X_U2.X_U_DIG_LOGIC_U12.YINT)    1.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U2.MYVSS)    0.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U2.Qqqd1)    0.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U4.YINT1)    0.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U4.YINT2)    0.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U4.YINT3)    1.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U8.qqqd1)    0.0000                                         
+
+(X_U2.X_U_DIG_LOGIC_U9.qqqd1)    0.0000                                         
+
+(X_U2.X_U_HICCUP_U30.X3.YINT)    0.0000                                         
+
+(X_U2.X_U_HICCUP_U625.clkdel)    1.0000                                         
+
+(X_U2.X_U_HICCUP_U625.clkint)    0.0000                                         
+
+(X_U3.U_HICCUP_EN_UVLO_PULSE)    0.0000                                         
+
+(X_U3.U_SOFT_START_N14296185) 2.442E-06                                         
+
+(X_U3.U_SOFT_START_N14296271) 2.442E-06                                         
+
+(X_U3.U_SOFT_START_N14297002)    1.2210                                         
+
+(X_U3.X_U_DIG_LOGIC_U12.YINT)    1.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U2.MYVSS)    0.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U2.Qqqd1)    0.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U4.YINT1)    0.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U4.YINT2)    0.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U4.YINT3)    1.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U8.qqqd1)    0.0000                                         
+
+(X_U3.X_U_DIG_LOGIC_U9.qqqd1)    0.0000                                         
+
+(X_U3.X_U_HICCUP_U30.X3.YINT)    0.0000                                         
+
+(X_U3.X_U_HICCUP_U625.clkdel)    1.0000                                         
+
+(X_U3.X_U_HICCUP_U625.clkint)    0.0000                                         
+
+(X_U4.U_HICCUP_EN_UVLO_PULSE)    0.0000                                         
+
+(X_U4.U_SOFT_START_N14296185) 2.442E-06                                         
+
+(X_U4.U_SOFT_START_N14296271) 2.442E-06                                         
+
+(X_U4.U_SOFT_START_N14297002)    1.2210                                         
+
+(X_U4.X_U_DIG_LOGIC_U12.YINT)    1.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U2.MYVSS)    0.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U2.Qqqd1)    0.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U4.YINT1)    0.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U4.YINT2)    0.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U4.YINT3)    1.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U8.qqqd1)    0.0000                                         
+
+(X_U4.X_U_DIG_LOGIC_U9.qqqd1)    0.0000                                         
+
+(X_U4.X_U_HICCUP_U30.X3.YINT)    0.0000                                         
+
+(X_U4.X_U_HICCUP_U625.clkdel)    1.0000                                         
+
+(X_U4.X_U_HICCUP_U625.clkint)    0.0000                                         
+
+(X_U2.U_PFET_ILIMIT_N14291358)     .0169                                        
+
+(X_U2.U_PFET_ILIMIT_N14292796)    0.0000                                        
+
+(X_U2.U_SOFT_START_N143033081)    1.7210                                        
+
+(X_U2.U_SOFT_START_REF_1P221V)    1.2210                                        
+
+(X_U2.X_U_DIG_LOGIC_U10.YINT1)    1.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U10.YINT2)    1.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U10.YINT3)    0.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U14.YINT1)    1.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U14.YINT2)    1.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U14.YINT3)    0.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U8.clkdel)    0.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U8.clkint)    0.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U9.clkdel)    1.0000                                        
+
+(X_U2.X_U_DIG_LOGIC_U9.clkint)    0.0000                                        
+
+(X_U2.X_U_HICCUP_U625.clkdel1)    1.0000                                        
+
+(X_U2.X_U_HICCUP_U625.x1.YINT)    1.0000                                        
+
+(X_U3.U_PFET_ILIMIT_N14291358)     .0160                                        
+
+(X_U3.U_PFET_ILIMIT_N14292796)    0.0000                                        
+
+(X_U3.U_SOFT_START_N143033081)    1.7210                                        
+
+(X_U3.U_SOFT_START_REF_1P221V)    1.2210                                        
+
+(X_U3.X_U_DIG_LOGIC_U10.YINT1)    1.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U10.YINT2)    1.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U10.YINT3)    0.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U14.YINT1)    1.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U14.YINT2)    1.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U14.YINT3)    0.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U8.clkdel)    0.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U8.clkint)    0.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U9.clkdel)    1.0000                                        
+
+(X_U3.X_U_DIG_LOGIC_U9.clkint)    0.0000                                        
+
+(X_U3.X_U_HICCUP_U625.clkdel1)    1.0000                                        
+
+(X_U3.X_U_HICCUP_U625.x1.YINT)    1.0000                                        
+
+(X_U4.U_PFET_ILIMIT_N14291358)     .0203                                        
+
+(X_U4.U_PFET_ILIMIT_N14292796)    0.0000                                        
+
+(X_U4.U_SOFT_START_N143033081)    1.7210                                        
+
+(X_U4.U_SOFT_START_REF_1P221V)    1.2210                                        
+
+(X_U4.X_U_DIG_LOGIC_U10.YINT1)    1.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U10.YINT2)    1.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U10.YINT3)    0.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U14.YINT1)    1.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U14.YINT2)    1.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U14.YINT3)    0.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U8.clkdel)    0.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U8.clkint)    0.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U9.clkdel)    1.0000                                        
+
+(X_U4.X_U_DIG_LOGIC_U9.clkint)    0.0000                                        
+
+(X_U4.X_U_HICCUP_U625.clkdel1)    1.0000                                        
+
+(X_U4.X_U_HICCUP_U625.x1.YINT)    1.0000                                        
+
+(X_U2.U_DIG_LOGIC_ILIMIT_FINAL)    1.0000                                       
+
+(X_U2.U_HICCUP_SLEEP_END_PULSE)    0.0000                                       
+
+(X_U2.U_PFET_ILIMIT_N142919940)    8.0169                                       
+
+(X_U2.X_U_DIG_LOGIC_U2.X3.YINT)    0.0000                                       
+
+(X_U2.X_U_DIG_LOGIC_U8.clkdel1)    0.0000                                       
+
+(X_U2.X_U_DIG_LOGIC_U8.x1.YINT)    0.0000                                       
+
+(X_U2.X_U_DIG_LOGIC_U9.clkdel1)    1.0000                                       
+
+(X_U2.X_U_DIG_LOGIC_U9.x1.YINT)    1.0000                                       
+
+(X_U2.X_U_HICCUP_U625.x3.YINT1)    0.0000                                       
+
+(X_U2.X_U_HICCUP_U625.x3.YINT2)    0.0000                                       
+
+(X_U2.X_U_HICCUP_U625.x3.YINT3)    0.0000                                       
+
+(X_U3.U_DIG_LOGIC_ILIMIT_FINAL)    1.0000                                       
+
+(X_U3.U_HICCUP_SLEEP_END_PULSE)    0.0000                                       
+
+(X_U3.U_PFET_ILIMIT_N142919940)    8.0160                                       
+
+(X_U3.X_U_DIG_LOGIC_U2.X3.YINT)    0.0000                                       
+
+(X_U3.X_U_DIG_LOGIC_U8.clkdel1)    0.0000                                       
+
+(X_U3.X_U_DIG_LOGIC_U8.x1.YINT)    0.0000                                       
+
+(X_U3.X_U_DIG_LOGIC_U9.clkdel1)    1.0000                                       
+
+(X_U3.X_U_DIG_LOGIC_U9.x1.YINT)    1.0000                                       
+
+(X_U3.X_U_HICCUP_U625.x3.YINT1)    0.0000                                       
+
+(X_U3.X_U_HICCUP_U625.x3.YINT2)    0.0000                                       
+
+(X_U3.X_U_HICCUP_U625.x3.YINT3)    0.0000                                       
+
+(X_U4.U_DIG_LOGIC_ILIMIT_FINAL)    1.0000                                       
+
+(X_U4.U_HICCUP_SLEEP_END_PULSE)    0.0000                                       
+
+(X_U4.U_PFET_ILIMIT_N142919940)    8.0203                                       
+
+(X_U4.X_U_DIG_LOGIC_U2.X3.YINT)    0.0000                                       
+
+(X_U4.X_U_DIG_LOGIC_U8.clkdel1)    0.0000                                       
+
+(X_U4.X_U_DIG_LOGIC_U8.x1.YINT)    0.0000                                       
+
+(X_U4.X_U_DIG_LOGIC_U9.clkdel1)    1.0000                                       
+
+(X_U4.X_U_DIG_LOGIC_U9.x1.YINT)    1.0000                                       
+
+(X_U4.X_U_HICCUP_U625.x3.YINT1)    0.0000                                       
+
+(X_U4.X_U_HICCUP_U625.x3.YINT2)    0.0000                                       
+
+(X_U4.X_U_HICCUP_U625.x3.YINT3)    0.0000                                       
+
+(X_U2.U_HICCUP_HICCUP_INT_PULSE)    0.0000                                      
+
+(X_U2.U_PFET_ILIMIT_VILIMIT_SIG) 1.278E-06                                      
+
+(X_U2.X_U_DIG_LOGIC_U8.x3.YINT1)    0.0000                                      
+
+(X_U2.X_U_DIG_LOGIC_U8.x3.YINT2)    0.0000                                      
+
+(X_U2.X_U_DIG_LOGIC_U8.x3.YINT3)    0.0000                                      
+
+(X_U2.X_U_DIG_LOGIC_U9.x3.YINT1)    0.0000                                      
+
+(X_U2.X_U_DIG_LOGIC_U9.x3.YINT2)    0.0000                                      
+
+(X_U2.X_U_DIG_LOGIC_U9.x3.YINT3)    0.0000                                      
+
+(X_U3.U_HICCUP_HICCUP_INT_PULSE)    0.0000                                      
+
+(X_U3.U_PFET_ILIMIT_VILIMIT_SIG) 1.278E-06                                      
+
+(X_U3.X_U_DIG_LOGIC_U8.x3.YINT1)    0.0000                                      
+
+(X_U3.X_U_DIG_LOGIC_U8.x3.YINT2)    0.0000                                      
+
+(X_U3.X_U_DIG_LOGIC_U8.x3.YINT3)    0.0000                                      
+
+(X_U3.X_U_DIG_LOGIC_U9.x3.YINT1)    0.0000                                      
+
+(X_U3.X_U_DIG_LOGIC_U9.x3.YINT2)    0.0000                                      
+
+(X_U3.X_U_DIG_LOGIC_U9.x3.YINT3)    0.0000                                      
+
+(X_U4.U_HICCUP_HICCUP_INT_PULSE)    0.0000                                      
+
+(X_U4.U_PFET_ILIMIT_VILIMIT_SIG) 1.278E-06                                      
+
+(X_U4.X_U_DIG_LOGIC_U8.x3.YINT1)    0.0000                                      
+
+(X_U4.X_U_DIG_LOGIC_U8.x3.YINT2)    0.0000                                      
+
+(X_U4.X_U_DIG_LOGIC_U8.x3.YINT3)    0.0000                                      
+
+(X_U4.X_U_DIG_LOGIC_U9.x3.YINT1)    0.0000                                      
+
+(X_U4.X_U_DIG_LOGIC_U9.x3.YINT2)    0.0000                                      
+
+(X_U4.X_U_DIG_LOGIC_U9.x3.YINT3)    0.0000                                      
+
+(X_U2.U_DIG_LOGIC_ILIMIT_DELAYED) 575.9E-21                                     
+
+(X_U3.U_DIG_LOGIC_ILIMIT_DELAYED) 575.9E-21                                     
+
+(X_U4.U_DIG_LOGIC_ILIMIT_DELAYED) 575.9E-21                                     
+
+(X_U2.U_HICCUP_ILIMIT_MASTER_PULSE)    0.0000                                   
+
+(X_U3.U_HICCUP_ILIMIT_MASTER_PULSE)    0.0000                                   
+
+(X_U4.U_HICCUP_ILIMIT_MASTER_PULSE)    0.0000                                   
+
+(X_U2.U_DIG_LOGIC_DCYCLE_AND_ILIMIT)    1.0000                                  
+
+(X_U3.U_DIG_LOGIC_DCYCLE_AND_ILIMIT)    1.0000                                  
+
+(X_U4.U_DIG_LOGIC_DCYCLE_AND_ILIMIT)    1.0000                                  
+
+(X_U2.U_SOFT_START_REF_SLOW1_221_8MS) 2.442E-06                                 
+
+(X_U3.U_SOFT_START_REF_SLOW1_221_8MS) 2.442E-06                                 
+
+(X_U4.U_SOFT_START_REF_SLOW1_221_8MS) 2.442E-06          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vbattery_pack  -3.873E-06
+    X_U4.V_U_PFET_ILIMIT_V1   0.000E+00
+    X_U4.V_U_ENA_UVLO_V5   0.000E+00
+    X_U4.V_U_ENA_UVLO_V6   0.000E+00
+    X_U4.V_U_ENA_UVLO_V3   0.000E+00
+    X_U4.V_U_ENA_UVLO_V4   0.000E+00
+    X_U4.V_U_DIG_LOGIC_V3   0.000E+00
+    X_U4.V_U_ERROR_AMP_V1  -2.200E-04
+    X_U4.V_U_SOFT_START_V2  -1.722E-12
+    X_U4.V_U_SOFT_START_V1  -1.722E-12
+    X_U4.V_U_RAMP_GEN_V2   0.000E+00
+    X_U4.V_U_HICCUP_V11   0.000E+00
+    X_U4.V_U_HICCUP_V3  -5.001E-12
+    X_U4.V_U_HICCUP_V47  -3.125E-06
+    X_U4.V_U_HICCUP_V10   0.000E+00
+    X_U4.V_U_HICCUP_V15   0.000E+00
+    X_U2.V_U_PFET_ILIMIT_V1   0.000E+00
+    X_U2.V_U_ENA_UVLO_V5   0.000E+00
+    X_U2.V_U_ENA_UVLO_V6   0.000E+00
+    X_U2.V_U_ENA_UVLO_V3   0.000E+00
+    X_U2.V_U_ENA_UVLO_V4   0.000E+00
+    X_U2.V_U_DIG_LOGIC_V3   0.000E+00
+    X_U2.V_U_ERROR_AMP_V1  -2.200E-04
+    X_U2.V_U_SOFT_START_V2  -1.722E-12
+    X_U2.V_U_SOFT_START_V1  -1.722E-12
+    X_U2.V_U_RAMP_GEN_V2   0.000E+00
+    X_U2.V_U_HICCUP_V11   0.000E+00
+    X_U2.V_U_HICCUP_V3  -5.001E-12
+    X_U2.V_U_HICCUP_V47  -3.125E-06
+    X_U2.V_U_HICCUP_V10   0.000E+00
+    X_U2.V_U_HICCUP_V15   0.000E+00
+    X_U3.V_U_PFET_ILIMIT_V1   0.000E+00
+    X_U3.V_U_ENA_UVLO_V5   0.000E+00
+    X_U3.V_U_ENA_UVLO_V6   0.000E+00
+    X_U3.V_U_ENA_UVLO_V3   0.000E+00
+    X_U3.V_U_ENA_UVLO_V4   0.000E+00
+    X_U3.V_U_DIG_LOGIC_V3   0.000E+00
+    X_U3.V_U_ERROR_AMP_V1  -2.200E-04
+    X_U3.V_U_SOFT_START_V2  -1.722E-12
+    X_U3.V_U_SOFT_START_V1  -1.722E-12
+    X_U3.V_U_RAMP_GEN_V2   0.000E+00
+    X_U3.V_U_HICCUP_V11   0.000E+00
+    X_U3.V_U_HICCUP_V3  -5.001E-12
+    X_U3.V_U_HICCUP_V47  -3.125E-06
+    X_U3.V_U_HICCUP_V10   0.000E+00
+    X_U3.V_U_HICCUP_V15   0.000E+00
+    X_U4.X_U_PFET_ILIMIT_H1.VH_U_PFET_ILIMIT_H1   1.278E-06
+    X_U4.X_U_DIG_LOGIC_U8.v1  -5.001E-12
+    X_U4.X_U_DIG_LOGIC_U9.v1  -5.001E-12
+    X_U4.X_U_DIG_LOGIC_U2.V1  -1.011E-12
+    X_U4.X_U_DIG_LOGIC_U2.V2  -5.677E-14
+    X_U4.X_U_ERROR_AMP_U1.voffs   4.306E-10
+    X_U4.X_U_ERROR_AMP_U1.vc   2.237E-12
+    X_U4.X_U_ERROR_AMP_U1.ve  -1.671E+00
+    X_U4.X_U_HICCUP_U30.V1  -1.001E-12
+    X_U4.X_U_HICCUP_U30.V2   2.776E-27
+    X_U4.X_U_HICCUP_U625.v1  -5.001E-12
+    X_U2.X_U_PFET_ILIMIT_H1.VH_U_PFET_ILIMIT_H1   1.278E-06
+    X_U2.X_U_DIG_LOGIC_U8.v1  -5.001E-12
+    X_U2.X_U_DIG_LOGIC_U9.v1  -5.001E-12
+    X_U2.X_U_DIG_LOGIC_U2.V1  -1.011E-12
+    X_U2.X_U_DIG_LOGIC_U2.V2  -5.677E-14
+    X_U2.X_U_ERROR_AMP_U1.voffs   2.814E-10
+    X_U2.X_U_ERROR_AMP_U1.vc   2.220E-12
+    X_U2.X_U_ERROR_AMP_U1.ve  -1.091E+00
+    X_U2.X_U_HICCUP_U30.V1  -1.001E-12
+    X_U2.X_U_HICCUP_U30.V2   2.776E-27
+    X_U2.X_U_HICCUP_U625.v1  -5.001E-12
+    X_U3.X_U_PFET_ILIMIT_H1.VH_U_PFET_ILIMIT_H1   1.278E-06
+    X_U3.X_U_DIG_LOGIC_U8.v1  -5.001E-12
+    X_U3.X_U_DIG_LOGIC_U9.v1  -5.001E-12
+    X_U3.X_U_DIG_LOGIC_U2.V1  -1.011E-12
+    X_U3.X_U_DIG_LOGIC_U2.V2  -5.677E-14
+    X_U3.X_U_ERROR_AMP_U1.voffs   2.427E-10
+    X_U3.X_U_ERROR_AMP_U1.vc   2.214E-12
+    X_U3.X_U_ERROR_AMP_U1.ve  -9.408E-01
+    X_U3.X_U_HICCUP_U30.V1  -1.001E-12
+    X_U3.X_U_HICCUP_U30.V2   2.776E-27
+    X_U3.X_U_HICCUP_U625.v1  -5.001E-12
+
+    TOTAL POWER DISSIPATION   3.59E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/21/26 12:02:07 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Voltage Rail Test"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =     1768.50
+

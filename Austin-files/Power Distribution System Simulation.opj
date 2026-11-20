@@ -1,0 +1,78 @@
+(ExpressProject "Power Distribution System Simulation"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[04/21/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\power distribution system simulation.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\POWER DISTRIBUTION SYSTEM SIMULATION_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\POWER DISTRIBUTION SYSTEM SIMULATION_OUTPUT\BOM.SCH.CSV"))
+    (File
+       ".\power distribution system simulation-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\power distribution system simulation-pspicefiles\schematic1\voltage rail test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\power distribution system simulation-pspicefiles\schematic1\voltage rail test.sim"
+        (DisplayName "SCHEMATIC1-Voltage Rail Test")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "austi")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system simulation\power distribution system simulation.dsn")
+      (Path "Design Resources"
+         "c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system simulation\power distribution system simulation.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system simulation\power distribution system simulation.dsn"
+         "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 577"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 618")
+        (Scroll "-54 180")
+        (Zoom "118")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\POWER DISTRIBUTION SYSTEM SIMULATION\POWER DISTRIBUTION SYSTEM SIMULATION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (PartMRUSelector
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\OrCADX_25.1\tools\capture\library\pspice"))

@@ -1,0 +1,77 @@
+
+**** 04/14/26 15:15:03 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Voltage Rail Test"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Voltage Rail Test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "C:\Users\austi\OneDrive\Documents\College\ECEN 403\Cadence Library\TPS5420_PSPICE_TRANS\TPS5420_TRANS.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWER DISTRIBUTION SYSTEM SIMULATION
+R_R17         N38093 VOUT_6V  10k TC=0,0 
+X_U4         N417810 N38638 0 0 0 N38776 N04234 N38780 TPS5420_TRANS PARAMS:
++  MODE=0
+R_Rinternal_battery         N04234 N419330  0.12 TC=0,0 
+R_R13         N36463 VOUT_5V  10k TC=0,0 
+D_D3         0 N38776 DI_B340A 
+C_C3         N04234 0  100n  TC=0,0 
+C_C20         0 VOUT_5V  100uF  TC=0,0 
+D_D2         0 N38089 DI_B340A 
+C_C19         N415230 N36108  0.01uF  TC=0,0 
+C_C2         N04234 0  1u  TC=0,0 
+C_C22         0 VOUT_6V  100uF  TC=0,0 
+R_R21         0 N38780  5.9k TC=0,0 
+R_R20         N38780 VOUT_3.3V  10k TC=0,0 
+R_R15         N37351 0  1G TC=0,0 
+V_Vbattery_pack         N419330 0 12.8Vdc
+R_R14         0 N36463  3.24k TC=0,0 
+X_U2         N415230 N37351 0 0 0 N36108 N04234 N36463 TPS5420_TRANS PARAMS:
++  MODE=0
+C_C21         N418010 N38089  0.01uF  TC=0,0 
+D_D1         0 N36108 DI_B340A 
+L_L4         N38776 VOUT_3.3V  33uH  TC=0,0 
+R_R18         0 N38093  2.55k TC=0,0 
+L_L3         N38089 VOUT_6V  33uH  TC=0,0 
+R_R16         N37951 0  1G TC=0,0 
+C_C24         0 VOUT_3.3V  100uF  TC=0,0 
+C_C1         N04234 0  470u  TC=0,0 
+X_U3         N418010 N37951 0 0 0 N38089 N04234 N38093 TPS5420_TRANS PARAMS:
++  MODE=0
+C_C23         N417810 N38776  0.01uF  TC=0,0 
+R_R19         N38638 0  1G TC=0,0 
+L_L2         N36108 VOUT_5V  33uH  TC=0,0 
+
+**** RESUMING "Voltage Rail Test.cir" ****
+.END
+
+
+ERROR(ORPSIM-15113): Model DI_B340A used by D_D3 is undefined
+
+ERROR(ORPSIM-15113): Model DI_B340A used by D_D2 is undefined
+
+ERROR(ORPSIM-15113): Model DI_B340A used by D_D1 is undefined
+
