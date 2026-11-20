@@ -1,0 +1,85 @@
+
+**** 04/08/26 20:15:13 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\power distribution system\power
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../power distribution system-pspicefiles/power distribution system.lib" 
+* From [PSPICE NETLIST] section of C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 50n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWER DISTRIBUTION SYSTEM
+R_Rinternal_battery         N04234 N041940  0.12 TC=0,0 
+V_Vbattery_pack         N041940 0 12.8Vdc
+C_C3         N04234 0  100n  TC=0,0 
+C_C2         N04234 0  1u  TC=0,0 
+C_C1         N04234 0  470u  TC=0,0 
+C_C19         N320000 N36108  0.01uF  TC=0,0 
+L_L2         N36108 VOUT_5V  33uH  TC=0,0 
+C_C20         0 VOUT_5V  100uF  TC=0,0 
+R_R13         N36463 VOUT_5V  10k TC=0,0 
+R_R14         0 N36463  3.24k TC=0,0 
+X_U2         N320000 N37351 0 0 0 N36108 N04234 N36463 TPS5420_TRANS PARAMS:
++  MODE=0
+R_R15         N37351 0  1G TC=0,0 
+L_L3         N38089 VOUT_6V  33uH  TC=0,0 
+C_C21         N380250 N38089  0.01uF  TC=0,0 
+C_C22         0 VOUT_6V  100uF  TC=0,0 
+R_R17         N38093 VOUT_6V  10k TC=0,0 
+R_R18         0 N38093  2.55k TC=0,0 
+R_R16         N37951 0  1G TC=0,0 
+X_U3         N380250 N37951 0 0 0 N38089 N04234 N38093 TPS5420_TRANS PARAMS:
++  MODE=0
+X_U4         N387120 N38638 0 0 0 N38776 N04234 N38780 TPS5420_TRANS PARAMS:
++  MODE=0
+C_C24         0 VOUT_3.3V  100uF  TC=0,0 
+R_R20         N38780 VOUT_3.3V  10k TC=0,0 
+C_C23         N387120 N38776  0.01uF  TC=0,0 
+R_R21         0 N38780  5.9k TC=0,0 
+R_R19         N38638 0  1G TC=0,0 
+L_L4         N38776 VOUT_3.3V  33uH  TC=0,0 
+D_D1         0 N36108 DI_B340A 
+D_D2         0 N38089 DI_B340A 
+D_D3         0 N38776 DI_B340A 
+
+**** RESUMING test.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file "C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles\power distribution system.lib" has changed since index file "power distribution system.ind" was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Wed Apr  8 15:03:03 2026 to Wed Apr  8 20:05:42 2026.
+
+INFO(ORPSIM-15422): Making new index file "power distribution system.ind" for library file "power distribution system.lib".
+
+Index has 1 entries from 1 file(s).
+
+
+ERROR(ORPSIM-15108): Subcircuit TPS5420_TRANS used by X_U2 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit TPS5420_TRANS used by X_U3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit TPS5420_TRANS used by X_U4 is undefined
+

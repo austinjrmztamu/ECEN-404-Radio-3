@@ -1,0 +1,29 @@
+Quantity,Part Number,Part Reference,Value,Description,Manufacturer Name,Manufacturer Part Number,Assigned SKU,Assigned Manufacturer Part Number,Assigned Manufacturer Name,Design Risk Score,Market Availability,Reach Compliant,ROHS Compliant,Status,Price Range
+1,,C1,470u,,,,,,,,,,,,
+1,,C2,1u,,,,,,,,,,,,
+1,,C3,100n,,,,,,,,,,,,
+1,,C19,0.01uF,,,,,,,,,,,,
+1,,C20,100uF,,,,,,,,,,,,
+1,,C21,0.01uF,,,,,,,,,,,,
+1,,C22,100uF,,,,,,,,,,,,
+1,,C23,0.01uF,,,,,,,,,,,,
+1,,C24,100uF,,,,,,,,,,,,
+1,,D1,Dbreak,,,,,,,,,,,,
+1,,D2,Dbreak,,,,,,,,,,,,
+1,,D3,Dbreak,,,,,,,,,,,,
+1,PPTC041LGBN-RC,J1,PPTC041LGBN-RC,CONN HDR 4POS 0.1 TIN PCB R/A,Sullins,PPTC041LGBN-RC,PPTC041LGBN-RC-308045016,PPTC041LGBN-RC,"Sullins Connector Solutions, Inc.",2,2,,,Active,$0.42892-$0.42892
+1,691137710002,J3,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",W�rth Elektronik,691137710002,691137710002-8351503115,691137710002,Wurth Elektronik GmbH & Co. KG,2,2,,,Active,$0.28995-$0.37247
+1,691137710002,J4,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",W�rth Elektronik,691137710002,691137710002-8351503115,691137710002,Wurth Elektronik GmbH & Co. KG,2,2,,,Active,$0.28995-$0.37247
+1,,L2,33uH,,,,,,,,,,,,
+1,,L3,33uH,,,,,,,,,,,,
+1,,L4,33uH,,,,,,,,,,,,
+1,,R13,10k,,,,,,,,,,,,
+1,,R14,3.24k,,,,,,,,,,,,
+1,,R17,10k,,,,,,,,,,,,
+1,,R18,2.55k,,,,,,,,,,,,
+1,,R20,10k,,,,,,,,,,,,
+1,,R21,5.9k,,,,,,,,,,,,
+1,B12AP,S1,B12AP,"NKK SWITCHES - B12AP - SWITCH, TOGGLE, SPDT, 0.1A, 28VAC",NKK Switches,B12AP,B12AP-313798448,B12AP,"NKK Switches Co., Ltd.",10,10,,,Active,$2.43090-$4.12253
+1,,U5,TPS5420_D_8,"5.5V to 36V Input, 2A, 500kHz Step-Down Converter 8-SOIC -40 to 125",,,,,,,,,,,
+1,,U6,TPS5420_D_8,"5.5V to 36V Input, 2A, 500kHz Step-Down Converter 8-SOIC -40 to 125",,,,,,,,,,,
+1,,U7,TPS5420_D_8,"5.5V to 36V Input, 2A, 500kHz Step-Down Converter 8-SOIC -40 to 125",,,,,,,,,,,

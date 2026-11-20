@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : power distribution system.brd                 )
 (    Software Version : 25.1S020                                      )
-(    Date/Time        : Fri Apr 10 15:23:33 2026                      )
+(    Date/Time        : Sat Apr 11 22:08:22 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,28 +17,53 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system'
-Design Directory:            'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro'
-Old design name:             'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
-New design name:             'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
+Schematic directory:         'c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles'
+Design Directory:            'c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/allegro'
+Old design name:             'c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
+New design name:             'c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
 
-CmdLine: netrev.exe -y 1 -n -i c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd
+CmdLine: netrev.exe -y 1 -v -n -i c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstchip.dat 
-   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstchip.dat (00:00:00.01)
-Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxprt.dat 
-   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxprt.dat (00:00:00.00)
-Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxnet.dat 
-   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxnet.dat (00:00:00.00)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstchip.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstchip.dat (00:00:00.35)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstxprt.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstxprt.dat (00:00:00.00)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstxnet.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RHDRRA4W60P0X254_1X4_1066X850X274P' used by RefDes J1 for device 'PPTC041LGBN-RC_RHDRRA4W60P0X254_1X4_1066X850X274P_PPTC041LGBN-RC' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct 
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'B12AP' used by RefDes S1 for device 'B12AP_B12AP_B12AP' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/power distribution system-pspicefiles/pstcmdb.dat
+	Start time: Sat Apr 11 22:08:22 2026
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Sat Apr 11 22:08:22 2026
+===========================================================
+
 ------ Library Paths ------
 MODULEPATH =  . 
-           C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/local/pcb/modules 
+           c:/cadence/orcadx_25.1/share/orApps/OrCaptureApp/../../../share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
@@ -66,7 +91,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Apr 10 15:23:33 2026
+netrev run on Apr 11 22:08:21 2026
    DESIGN NAME : 'POWER DISTRIBUTION SYSTEM'
    PACKAGING ON Feb  5 2026 13:43:38
 
@@ -89,8 +114,8 @@ netrev run on Apr 10 15:23:33 2026
 
  No error detected
  No oversight detected
- No warning detected
+  2 warnings detected
 
-cpu time      0:00:34
-elapsed time  0:00:00
+cpu time      0:01:27
+elapsed time  0:00:01
 

@@ -1,0 +1,78 @@
+
+**** 04/05/26 22:18:46 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Load Testing"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution syst
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Load Testing.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3600s 0 5 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWER DISTRIBUTION SYSTEM
+C_C8         0 N04764  10u  TC=0,0 
+R_Rinternal_battery         V_BATTERY N041940  0.12 TC=0,0 
+V_Vbattery_pack         N041940 0 12.8Vdc
+C_C3         V_BATTERY 0  100n  TC=0,0 
+C_C2         V_BATTERY 0  1u  TC=0,0 
+C_C9         0 N04764  100n  TC=0,0 
+C_C7         0 N04764  220u  TC=0,0 
+C_C1         V_BATTERY 0  470u  TC=0,0 
+C_boot_capacitor         N15280 N14279  0.01uF  TC=0,0 
+L_L1         N04764 N14279  10uH  TC=0,0 
+D_D1         0 N14279 Dbreak 
+R_R1         0 N14619  10k TC=0,0 
+R_R2         N14619 N04764  3.25k TC=0,0 
+C_C12         0 N16176  100n  TC=0,0 
+R_R3         N16440 N16176  3.25k TC=0,0 
+D_D2         0 N16168 Dbreak 
+C_C10         0 N16176  47u  TC=0,0 
+C_C11         0 N16176  1u  TC=0,0 
+L_L2         N16176 N16168  10uH  TC=0,0 
+R_R4         0 N16440  10k TC=0,0 
+C_boot_capacitor1         N16248 N16168  0.01uF  TC=0,0 
+C_C15         0 N17279  100n  TC=0,0 
+R_R5         N17543 N17279  3.25k TC=0,0 
+L_L3         N17279 N17271  10uH  TC=0,0 
+C_boot_capacitor2         N17351 N17271  0.01uF  TC=0,0 
+C_C14         0 N17279  1u  TC=0,0 
+R_R6         0 N17543  10k TC=0,0 
+C_C13         0 N17279  47u  TC=0,0 
+D_D3         0 N17271 Dbreak 
+
+**** RESUMING "Load Testing.cir" ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N15280.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N16248.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N17351.
+
+ERROR(ORPSIM-15142): Node N15280 is floating
+
+ERROR(ORPSIM-15142): Node N16248 is floating
+
+ERROR(ORPSIM-15142): Node N17351 is floating
+
