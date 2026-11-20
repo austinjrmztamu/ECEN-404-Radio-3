@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : power distribution system.brd                 )
 (    Software Version : 25.1S020                                      )
-(    Date/Time        : Thu Apr  9 21:31:35 2026                      )
+(    Date/Time        : Fri Apr 10 15:23:33 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'c:\users\austi\onedrive\documents\college\ecen 403'
-Design Directory:            'C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro'
-Old design name:             'C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
-New design name:             'C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
+Schematic directory:         'c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system'
+Design Directory:            'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro'
+Old design name:             'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
+New design name:             'C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd'
 
-CmdLine: netrev.exe -y 1 -n -i c:\users\austi\onedrive\documents\college\ecen 403 C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd
+CmdLine: netrev.exe -y 1 -n -i c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/power distribution system/allegro/power distribution system.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read c:/users/austi/onedrive/documents/college/ecen 403/pstchip.dat 
-   Finished reading c:/users/austi/onedrive/documents/college/ecen 403/pstchip.dat (00:00:00.01)
-Starting to read c:/users/austi/onedrive/documents/college/ecen 403/pstxprt.dat 
-   Finished reading c:/users/austi/onedrive/documents/college/ecen 403/pstxprt.dat (00:00:00.00)
-Starting to read c:/users/austi/onedrive/documents/college/ecen 403/pstxnet.dat 
-   Finished reading c:/users/austi/onedrive/documents/college/ecen 403/pstxnet.dat (00:00:00.00)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstchip.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstchip.dat (00:00:00.01)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxprt.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxprt.dat (00:00:00.00)
+Starting to read c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxnet.dat 
+   Finished reading c:/users/admin/appdata/roaming/spb_data/cdssetup/workspace/projects/power distribution system/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -47,7 +47,9 @@ PSMPATH =  .
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/local/pcb/symbols 
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
-           C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/25.1.0/downloaded_parts/allegropcb 
+           C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/25.1.0/downloaded_parts/allegropcb 
+           C:/Users/Admin/Classes/Capstone/Libs/Footprints/AllegroPCBFootprint_DIODE 
+           C:/Users/Admin/Classes/Capstone/Libs/Footprints/AllegroPCBFootprint_IC 
 
 PADPATH =  . 
            symbols 
@@ -56,13 +58,15 @@ PADPATH =  .
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/local/pcb/padstacks 
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
            C:/Cadence/OrCADX_25.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
-           C:/Users/austi/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/25.1.0/downloaded_parts/allegropcb 
+           C:/Users/Admin/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/25.1.0/downloaded_parts/allegropcb 
+           C:/Users/Admin/Classes/Capstone/Libs/Footprints/AllegroPCBFootprint_DIODE 
+           C:/Users/Admin/Classes/Capstone/Libs/Footprints/AllegroPCBFootprint_IC 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Apr 9 21:31:35 2026
+netrev run on Apr 10 15:23:33 2026
    DESIGN NAME : 'POWER DISTRIBUTION SYSTEM'
    PACKAGING ON Feb  5 2026 13:43:38
 
@@ -87,6 +91,6 @@ netrev run on Apr 9 21:31:35 2026
  No oversight detected
  No warning detected
 
-cpu time      0:00:37
+cpu time      0:00:34
 elapsed time  0:00:00
 

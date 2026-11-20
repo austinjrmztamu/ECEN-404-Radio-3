@@ -3,353 +3,249 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
   0            pins ADDED TO this new net
-                                 C1.2           C2.2           C3.2           
-                                 C20.1          C22.1          C24.1          
-                                 R14.1          R18.1          R21.1          
+                                 C25.2          C26.2          C27.2          
+                                 C32.1          D1.1           R23.2          
+                                 R28.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins ADDED TO this new net
-                                 U5.6           U6.6           U7.6           
+                                 J1.4           SW1.3          U8.6           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N42970       pins ADDED TO this new net
-                                 C1.1           C2.1           C3.1           
-                                 R0.1           U5.7           U6.7           
-                                 U7.7           
+  N43282       pins ADDED TO this new net
+                                 C25.1          C26.1          C27.1          
+                                 R0.1           U8.7           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43006       pins ADDED TO this new net
-                                 C19.2          L2.1           U5.8           
+  N43980       pins ADDED TO this new net
+                                 C29.1          D1.2           L6.1           
+                                 U8.1           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43018       pins ADDED TO this new net
-                                 R13.1          R14.2          U5.4           
+  N45917       pins ADDED TO this new net
+                                 C29.2          U8.8           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43062       pins ADDED TO this new net
-                                 C21.2          L3.1           U6.8           
+  N46200       pins ADDED TO this new net
+                                 R23.1          U8.5           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43070       pins ADDED TO this new net
-                                 R17.1          R18.2          U6.4           
+  N46621       pins ADDED TO this new net
+                                 R27.1          R28.2          U8.4           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43108       pins ADDED TO this new net
-                                 C23.2          L4.1           U7.8           
+  N48881       pins ADDED TO this new net
+                                 R0.2           SW1.2          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43116       pins ADDED TO this new net
-                                 R20.1          R21.2          U7.4           
+  N48976       pins ADDED TO this new net
+                                 SW1.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N45244       pins ADDED TO this new net
-                                 C19.1          U5.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N46110       pins ADDED TO this new net
-                                 C21.1          U6.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N46547       pins ADDED TO this new net
-                                 C23.1          U7.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N435900      pins ADDED TO this new net
-                                 R0.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VOUT_3.3V    pins ADDED TO this new net
-                                 C24.2          L4.2           R20.2          
+  VOUT_5V      pins ADDED TO this new net
+                                 C32.2          J1.1           L6.2           
+                                 R27.2          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VOUT_5V      pins ADDED TO this new net
-                                 C20.2          L2.2           R13.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VOUT_6V      pins ADDED TO this new net
-                                 C22.2          L3.2           R17.2          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 691322310004_CONN4_310004_WRE_CONN4_310004
+ B12AP_B12AP_NKK_SW_1POLE_2CONT
  C_CAP196_0.01UF
  C_CAP196_1U
  C_CAP196_100N
  C_CAP196_100UF
  C_CAP196_470U
+ DBREAK_1_SMC_ONS_DBREAK
  L_DISC350X175LS200X100034_33UH
  R_AXRC05_0.12
- R_AXRC05_2.55K
+ R_AXRC05_1G
  R_AXRC05_3.24K
- R_AXRC05_5.9K
  R_AXRC05_10K
  TPS5420D_D8_TPS5420_D_8
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1                  C_CAP196_470U         
- C2                  C_CAP196_1U           
- C3                  C_CAP196_100N         
- C19                 C_CAP196_0.01UF       
- C20                 C_CAP196_100UF        
- C21                 C_CAP196_0.01UF       
- C22                 C_CAP196_100UF        
- C23                 C_CAP196_0.01UF       
- C24                 C_CAP196_100UF        
- L2                  L_DISC350X175LS200X100034_33UH 
- L3                  L_DISC350X175LS200X100034_33UH 
- L4                  L_DISC350X175LS200X100034_33UH 
+ C25                 C_CAP196_470U         
+ C26                 C_CAP196_1U           
+ C27                 C_CAP196_100N         
+ C29                 C_CAP196_0.01UF       
+ C32                 C_CAP196_100UF        
+ D1                  DBREAK_1_SMC_ONS_DBREAK 
+ J1                  691322310004_CONN4_310004_WRE_CONN4_310004 
+ L6                  L_DISC350X175LS200X100034_33UH 
  R0                  R_AXRC05_0.12         
- R13                 R_AXRC05_10K          
- R14                 R_AXRC05_3.24K        
- R17                 R_AXRC05_10K          
- R18                 R_AXRC05_2.55K        
- R20                 R_AXRC05_10K          
- R21                 R_AXRC05_5.9K         
- U5                  TPS5420D_D8_TPS5420_D_8 
- U6                  TPS5420D_D8_TPS5420_D_8 
- U7                  TPS5420D_D8_TPS5420_D_8 
+ R23                 R_AXRC05_1G           
+ R27                 R_AXRC05_10K          
+ R28                 R_AXRC05_3.24K        
+ SW1                 B12AP_B12AP_NKK_SW_1POLE_2CONT 
+ U8                  TPS5420D_D8_TPS5420_D_8 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../power distribution system/allegro/power distribution system.brd       |
+|                                                    Fri Apr 10 15:23:33 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          SCH_BBOX       (140,90,150,110)
+ C25.2                          SCH_MIRROR     (0)
+ C25.2                          SCH_ORIENT     (180)
+ C25.2                          XY             (140,90)
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          SCH_BBOX       (140,110,150,130)
+ C26.2                          SCH_MIRROR     (0)
+ C26.2                          SCH_ORIENT     (180)
+ C26.2                          XY             (140,110)
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          SCH_BBOX       (140,130,150,150)
+ C27.2                          SCH_MIRROR     (0)
+ C27.2                          SCH_ORIENT     (180)
+ C27.2                          XY             (140,130)
+ C29.2                          PRIM_FILE      .\pstchip.dat
+ C29.2                          SCH_BBOX       (480,310,490,330)
+ C29.2                          SCH_MIRROR     (1)
+ C29.2                          SCH_ORIENT     (180)
+ C29.2                          XY             (480,310)
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          SCH_BBOX       (250,360,270,370)
+ C32.2                          SCH_MIRROR     (1)
+ C32.2                          SCH_ORIENT     (270)
+ C32.2                          XY             (250,360)
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           SCH_BBOX       (330,360,350,370)
+ D1.2                           SCH_MIRROR     (0)
+ D1.2                           SCH_ORIENT     (90)
+ D1.2                           XY             (330,360)
+ J1.4                           PRIM_FILE      .\pstchip.dat
+ J1.4                           SCH_BBOX       (760,220,790,270)
+ J1.4                           SCH_MIRROR     (0)
+ J1.4                           SCH_ORIENT     (0)
+ J1.4                           XY             (760,220)
+ L6.2                           PRIM_FILE      .\pstchip.dat
+ L6.2                           SCH_BBOX       (270,330,310,350)
+ L6.2                           SCH_MIRROR     (1)
+ L6.2                           SCH_ORIENT     (0)
+ L6.2                           XY             (270,330)
+ R0.2                           PRIM_FILE      .\pstchip.dat
+ R0.2                           SCH_BBOX       (170,80,190,100)
+ R0.2                           SCH_MIRROR     (0)
+ R0.2                           SCH_ORIENT     (90)
+ R0.2                           XY             (170,80)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.2                           PRIM_FILE      .\pstchip.dat
- C1.2                           SCH_BBOX       (100,90,110,110)
- C1.2                           SCH_MIRROR     (0)
- C1.2                           SCH_ORIENT     (180)
- C1.2                           XY             (100,90)
- C2.2                           PRIM_FILE      .\pstchip.dat
- C2.2                           SCH_BBOX       (100,110,110,130)
- C2.2                           SCH_MIRROR     (0)
- C2.2                           SCH_ORIENT     (180)
- C2.2                           XY             (100,110)
- C3.2                           PRIM_FILE      .\pstchip.dat
- C3.2                           SCH_BBOX       (100,130,110,150)
- C3.2                           SCH_MIRROR     (0)
- C3.2                           SCH_ORIENT     (180)
- C3.2                           XY             (100,130)
- C19.2                          PRIM_FILE      .\pstchip.dat
- C19.2                          SCH_BBOX       (80,450,100,460)
- C19.2                          SCH_MIRROR     (1)
- C19.2                          SCH_ORIENT     (90)
- C19.2                          XY             (80,450)
- C20.2                          PRIM_FILE      .\pstchip.dat
- C20.2                          SCH_BBOX       (100,540,110,560)
- C20.2                          SCH_MIRROR     (1)
- C20.2                          SCH_ORIENT     (0)
- C20.2                          XY             (100,540)
- C21.2                          PRIM_FILE      .\pstchip.dat
- C21.2                          SCH_BBOX       (280,430,300,440)
- C21.2                          SCH_MIRROR     (1)
- C21.2                          SCH_ORIENT     (90)
- C21.2                          XY             (280,430)
- C22.2                          PRIM_FILE      .\pstchip.dat
- C22.2                          SCH_BBOX       (300,540,310,560)
- C22.2                          SCH_MIRROR     (1)
- C22.2                          SCH_ORIENT     (0)
- C22.2                          XY             (300,540)
- C23.2                          PRIM_FILE      .\pstchip.dat
- C23.2                          SCH_BBOX       (440,400,460,410)
- C23.2                          SCH_MIRROR     (1)
- C23.2                          SCH_ORIENT     (90)
- C23.2                          XY             (440,400)
- C24.2                          PRIM_FILE      .\pstchip.dat
- C24.2                          SCH_BBOX       (460,510,470,530)
- C24.2                          SCH_MIRROR     (1)
- C24.2                          SCH_ORIENT     (0)
- C24.2                          XY             (460,510)
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          SCH_BBOX       (550,420,570,440)
+ R23.2                          SCH_MIRROR     (1)
+ R23.2                          SCH_ORIENT     (90)
+ R23.2                          XY             (550,420)
+ R27.2                          PRIM_FILE      .\pstchip.dat
+ R27.2                          SCH_BBOX       (200,360,220,380)
+ R27.2                          SCH_MIRROR     (1)
+ R27.2                          SCH_ORIENT     (270)
+ R27.2                          XY             (200,360)
+ R28.2                          PRIM_FILE      .\pstchip.dat
+ R28.2                          SCH_BBOX       (200,450,220,470)
+ R28.2                          SCH_MIRROR     (1)
+ R28.2                          SCH_ORIENT     (270)
+ R28.2                          XY             (200,450)
+ SW1.3                          PRIM_FILE      .\pstchip.dat
+ SW1.3                          SCH_BBOX       (440,110,480,140)
+ SW1.3                          SCH_MIRROR     (0)
+ SW1.3                          SCH_ORIENT     (0)
+ SW1.3                          XY             (440,110)
+ U8.4                           PRIM_FILE      .\pstchip.dat
+ U8.4                           SCH_BBOX       (430,350,530,420)
+ U8.4                           SCH_MIRROR     (0)
+ U8.4                           SCH_ORIENT     (0)
+ U8.4                           XY             (430,350)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
+| PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
+|    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- L2.2                           PRIM_FILE      .\pstchip.dat
- L2.2                           SCH_BBOX       (70,500,90,540)
- L2.2                           SCH_MIRROR     (1)
- L2.2                           SCH_ORIENT     (90)
- L2.2                           XY             (70,500)
- L3.2                           PRIM_FILE      .\pstchip.dat
- L3.2                           SCH_BBOX       (270,500,290,540)
- L3.2                           SCH_MIRROR     (1)
- L3.2                           SCH_ORIENT     (90)
- L3.2                           XY             (270,500)
- L4.2                           PRIM_FILE      .\pstchip.dat
- L4.2                           SCH_BBOX       (430,470,450,510)
- L4.2                           SCH_MIRROR     (1)
- L4.2                           SCH_ORIENT     (90)
- L4.2                           XY             (430,470)
- R0.2                           PRIM_FILE      .\pstchip.dat
- R0.2                           SCH_BBOX       (130,80,150,100)
- R0.2                           SCH_MIRROR     (0)
- R0.2                           SCH_ORIENT     (90)
- R0.2                           XY             (130,80)
- R13.2                          PRIM_FILE      .\pstchip.dat
- R13.2                          SCH_BBOX       (100,590,120,610)
- R13.2                          SCH_MIRROR     (1)
- R13.2                          SCH_ORIENT     (0)
- R13.2                          XY             (100,590)
- R14.2                          PRIM_FILE      .\pstchip.dat
- R14.2                          SCH_BBOX       (170,590,190,610)
- R14.2                          SCH_MIRROR     (1)
- R14.2                          SCH_ORIENT     (0)
- R14.2                          XY             (170,590)
- R17.2                          PRIM_FILE      .\pstchip.dat
- R17.2                          SCH_BBOX       (300,590,320,610)
- R17.2                          SCH_MIRROR     (1)
- R17.2                          SCH_ORIENT     (0)
- R17.2                          XY             (300,590)
- R18.2                          PRIM_FILE      .\pstchip.dat
- R18.2                          SCH_BBOX       (370,590,390,610)
- R18.2                          SCH_MIRROR     (1)
- R18.2                          SCH_ORIENT     (0)
- R18.2                          XY             (370,590)
- R20.2                          PRIM_FILE      .\pstchip.dat
- R20.2                          SCH_BBOX       (460,560,480,580)
- R20.2                          SCH_MIRROR     (1)
- R20.2                          SCH_ORIENT     (0)
- R20.2                          XY             (460,560)
+ C25.1                          SCH_LOC        (150,100)
+ C25.2                          SCH_LOC        (140,100)
+ C26.1                          SCH_LOC        (150,120)
+ C26.2                          SCH_LOC        (140,120)
+ C27.1                          SCH_LOC        (150,140)
+ C27.2                          SCH_LOC        (140,140)
+ C29.1                          SCH_LOC        (480,320)
+ C29.2                          SCH_LOC        (490,320)
+ C32.1                          SCH_LOC        (260,370)
+ C32.2                          SCH_LOC        (260,360)
+ D1.1                           SCH_LOC        (340,370)
+ D1.2                           SCH_LOC        (340,360)
+ J1.1                           SCH_LOC        (760,230)
+ J1.4                           SCH_LOC        (760,260)
+ L6.1                           SCH_LOC        (310,350)
+ L6.2                           SCH_LOC        (270,350)
+ R0.1                           SCH_LOC        (180,100)
+ R0.2                           SCH_LOC        (180,80)
+ R23.1                          SCH_LOC        (560,420)
+ R23.2                          SCH_LOC        (560,440)
+ R27.1                          SCH_LOC        (210,380)
+ R27.2                          SCH_LOC        (210,360)
+ R28.1                          SCH_LOC        (210,470)
+ R28.2                          SCH_LOC        (210,450)
+ SW1.1                          SCH_LOC        (440,120)
+ SW1.2                          SCH_LOC        (480,130)
+ SW1.3                          SCH_LOC        (480,120)
+ U8.1                           SCH_LOC        (430,370)
+ U8.4                           SCH_LOC        (430,400)
+ U8.5                           SCH_LOC        (530,400)
+ U8.6                           SCH_LOC        (530,390)
+ U8.7                           SCH_LOC        (530,380)
+ U8.8                           SCH_LOC        (530,370)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   7  |
 |------------------------------------------------------------------------------|
 |  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R21.2                          PRIM_FILE      .\pstchip.dat
- R21.2                          SCH_BBOX       (530,560,550,580)
- R21.2                          SCH_MIRROR     (1)
- R21.2                          SCH_ORIENT     (0)
- R21.2                          XY             (530,560)
- U5.4                           PRIM_FILE      .\pstchip.dat
- U5.4                           SCH_BBOX       (70,280,140,380)
- U5.4                           SCH_MIRROR     (0)
- U5.4                           SCH_ORIENT     (90)
- U5.4                           XY             (70,280)
- U6.4                           PRIM_FILE      .\pstchip.dat
- U6.4                           SCH_BBOX       (270,280,340,380)
- U6.4                           SCH_MIRROR     (0)
- U6.4                           SCH_ORIENT     (90)
- U6.4                           XY             (270,280)
- U7.4                           PRIM_FILE      .\pstchip.dat
- U7.4                           SCH_BBOX       (430,250,500,350)
- U7.4                           SCH_MIRROR     (0)
- U7.4                           SCH_ORIENT     (90)
- U7.4                           XY             (430,250)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
+|                                                    Fri Apr 10 15:23:33 2026  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.1                           SCH_LOC        (110,100)
- C1.2                           SCH_LOC        (100,100)
- C2.1                           SCH_LOC        (110,120)
- C2.2                           SCH_LOC        (100,120)
- C3.1                           SCH_LOC        (110,140)
- C3.2                           SCH_LOC        (100,140)
- C19.1                          SCH_LOC        (90,450)
- C19.2                          SCH_LOC        (90,460)
- C20.1                          SCH_LOC        (110,550)
- C20.2                          SCH_LOC        (100,550)
- C21.1                          SCH_LOC        (290,430)
- C21.2                          SCH_LOC        (290,440)
- C22.1                          SCH_LOC        (310,550)
- C22.2                          SCH_LOC        (300,550)
- C23.1                          SCH_LOC        (450,400)
- C23.2                          SCH_LOC        (450,410)
- C24.1                          SCH_LOC        (470,520)
- C24.2                          SCH_LOC        (460,520)
- L2.1                           SCH_LOC        (90,500)
- L2.2                           SCH_LOC        (90,540)
- L3.1                           SCH_LOC        (290,500)
- L3.2                           SCH_LOC        (290,540)
- L4.1                           SCH_LOC        (450,470)
- L4.2                           SCH_LOC        (450,510)
- R0.1                           SCH_LOC        (140,100)
- R0.2                           SCH_LOC        (140,80)
- R13.1                          SCH_LOC        (120,600)
- R13.2                          SCH_LOC        (100,600)
- R14.1                          SCH_LOC        (190,600)
- R14.2                          SCH_LOC        (170,600)
- R17.1                          SCH_LOC        (320,600)
- R17.2                          SCH_LOC        (300,600)
- R18.1                          SCH_LOC        (390,600)
- R18.2                          SCH_LOC        (370,600)
- R20.1                          SCH_LOC        (480,570)
- R20.2                          SCH_LOC        (460,570)
- R21.1                          SCH_LOC        (550,570)
- R21.2                          SCH_LOC        (530,570)
- U5.1                           SCH_LOC        (90,380)
- U5.4                           SCH_LOC        (120,380)
- U5.6                           SCH_LOC        (110,280)
- U5.7                           SCH_LOC        (100,280)
- U5.8                           SCH_LOC        (90,280)
- U6.1                           SCH_LOC        (290,380)
- U6.4                           SCH_LOC        (320,380)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
 |------------------------------------------------------------------------------|
-|  C:.../power distribution system/allegro/power distribution system.brd       |
-|                                                    Thu Apr  9 21:31:35 2026  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U6.6                           SCH_LOC        (310,280)
- U6.7                           SCH_LOC        (300,280)
- U6.8                           SCH_LOC        (290,280)
- U7.1                           SCH_LOC        (450,350)
- U7.4                           SCH_LOC        (480,350)
- U7.6                           SCH_LOC        (470,250)
- U7.7                           SCH_LOC        (460,250)
- U7.8                           SCH_LOC        (450,250)
-|------------------------------------------------------------------------------|
-|       Nets changed          :      53                                        |
-|       Comp definitions added:      12                                        |
-|       Components added      :      22                                        |
-|       Pin property added    :      53                                        |
-|       Slot property added   :     110                                        |
+|       Nets changed          :      33                                        |
+|       Comp definitions added:      14                                        |
+|       Components added      :      14                                        |
+|       Pin property added    :      33                                        |
+|       Slot property added   :      70                                        |
 |                                                                              |
-|   Total ECO changes reported:     250                                        |
+|   Total ECO changes reported:     164                                        |
 |------------------------------------------------------------------------------|

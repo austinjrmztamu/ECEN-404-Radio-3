@@ -1,0 +1,206 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 25.1.0 d001Apr-10-2026 at 15:23:32 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='POWER DISTRIBUTION SYSTEM';
+ POST_TIME='Feb  5 2026 13:43:38';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C25 'C_CAP196_470U':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS43252@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins43252@analog.\c.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins43252@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,90)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(140,90,150,110)',
+ SECTION='';
+
+PART_NAME
+ C26 'C_CAP196_1U':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS43292@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins43292@analog.\c.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins43292@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,110)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(140,110,150,130)',
+ SECTION='';
+
+PART_NAME
+ C27 'C_CAP196_100N':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS43358@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins43358@analog.\c.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins43358@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,130)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(140,130,150,150)',
+ SECTION='';
+
+PART_NAME
+ C29 'C_CAP196_0.01UF':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS44050@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins44050@analog.\c.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins44050@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,310)',
+ SCH_ORIENT='(180)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(480,310,490,330)',
+ SECTION='';
+
+PART_NAME
+ C32 'C_CAP196_100UF':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS44358@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins44358@analog.\c.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins44358@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(250,360)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(250,360,270,370)',
+ SECTION='';
+
+PART_NAME
+ D1 'DBREAK_1_SMC_ONS_DBREAK':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS48301@POWER DISTRIBUTION SYSTEM.DBREAK_1.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins48301@\power distribution system\.\dbreak_1.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins48301@\power distribution system\.\dbreak_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(330,360)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(330,360,350,370)',
+ SECTION='';
+
+PART_NAME
+ J1 '691322310004_CONN4_310004_WRE_CONN4_310004':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS48796@732-2090-ND.691322310004.NORMAL(SCH_1)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins48796@\732-2090-nd\.\691322310004.normal\(sch_1)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins48796@\732-2090-nd\.\691322310004.normal\(sch_1)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(760,220)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(760,220,790,270)',
+ SECTION='';
+
+PART_NAME
+ L6 'L_DISC350X175LS200X100034_33UH':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS44274@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins44274@analog.\l.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins44274@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(270,330)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(270,330,310,350)',
+ SECTION='';
+
+PART_NAME
+ R0 'R_AXRC05_0.12':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS43226@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins43226@analog.\r.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins43226@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(170,80)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(170,80,190,100)',
+ SECTION='';
+
+PART_NAME
+ R23 'R_AXRC05_1G':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS43646@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins43646@analog.\r.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins43646@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,420)',
+ SCH_ORIENT='(90)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(550,420,570,440)',
+ SECTION='';
+
+PART_NAME
+ R27 'R_AXRC05_10K':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS44494@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins44494@analog.\r.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins44494@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,360)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(200,360,220,380)',
+ SECTION='';
+
+PART_NAME
+ R28 'R_AXRC05_3.24K':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS44514@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins44514@analog.\r.normal\(chips)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins44514@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,450)',
+ SCH_ORIENT='(270)',
+ SCH_MIRROR='(1)',
+ SCH_BBOX='(200,450,220,470)',
+ SECTION='';
+
+PART_NAME
+ SW1 'B12AP_B12AP_NKK_SW_1POLE_2CONT':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS48827@360-1012-ND.B12AP.NORMAL(SCH_1)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins48827@\360-1012-nd\.\b12ap.normal\(sch_1)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins48827@\360-1012-nd\.\b12ap.normal\(sch_1)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(440,110)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(440,110,480,140)',
+ SECTION='';
+
+PART_NAME
+ U8 'TPS5420D_D8_TPS5420_D_8':;
+
+SECTION_NUMBER 1
+ '@POWER DISTRIBUTION SYSTEM.SCHEMATIC1(SCH_1):INS45236@2026-04-08_06-05-10.TPS5420D.NORMAL(SCH_1)':
+ C_PATH='@\power distribution system\.schematic1(sch_1):ins45236@\2026-04-08_06-05-10\.\tps5420d.normal\(sch_1)',
+ P_PATH='@\power distribution system\.schematic1(sch_1):page1_ins45236@\2026-04-08_06-05-10\.\tps5420d.normal\(sch_1)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(430,350)',
+ SCH_ORIENT='(0)',
+ SCH_MIRROR='(0)',
+ SCH_BBOX='(430,350,530,420)',
+ SECTION='';
+
+END.

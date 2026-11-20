@@ -1,0 +1,313 @@
+(ExpressProject "Power Distribution System"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[08/27/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory"
+       "c:\users\austi\onedrive\documents\college\ecen 403")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\power distribution system.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Display_Online_DRC_Results "FALSE")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    ("Allegro Netlist Output Board File"
+       ".\allegro\power distribution system.brd")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "FALSE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "FALSE")
+    (DRC_Check_Missing_Pin_Numbers_Online "FALSE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\POWER DISTRIBUTION SYSTEM\POWER DISTRIBUTION SYSTEM.DRC")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\power distribution system.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\power distribution system.brd")
+      (NetListPath "c:\users\austi\onedrive\documents\college\ecen 403")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\POWER DISTRIBUTION SYSTEM_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\POWER DISTRIBUTION SYSTEM_OUTPUT\BOM.SCH.CSV"))
+    (File ".\power distribution system-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\power distribution system.drc"
+      (Type "Report"))
+    (File "c:\users\admin\classes\capstone\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "c:\users\admin\classes\capstone\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "c:\users\admin\classes\capstone\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\power distribution system-pspicefiles\schematic1\load testing.sim"
+        (DisplayName "SCHEMATIC1-Load Testing")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\power distribution system-pspicefiles\schematic1\test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\power distribution system-pspicefiles\schematic1\test.sim"
+        (DisplayName "SCHEMATIC1-test")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         ".\power distribution system-pspicefiles\power distribution system.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           ".\power distribution system-pspicefiles\power distribution system.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Admin\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\power distribution system\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Admin\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\power distribution system\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\Admin\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\power distribution system\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\allegro\genfeed.log"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\netlist.log"
+      (Type "Log File")
+      (LogFile "c:\users\austi\onedrive\documents\college\ecen 403\netlist.log"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\netrev.lst"
+      (Type "Log File")
+      (LogFile "c:\users\austi\onedrive\documents\college\ecen 403\netrev.lst"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\eco.txt"
+      (Type "Log File")
+      (LogFile "c:\users\austi\onedrive\documents\college\ecen 403\eco.txt"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\swp.log"
+      (Type "Log File")
+      (LogFile "c:\users\austi\onedrive\documents\college\ecen 403\swp.log"))
+    (File "c:\users\austi\onedrive\documents\college\ecen 403\genfeed.log"
+      (Type "Log File")
+      (LogFile "c:\users\austi\onedrive\documents\college\ecen 403\genfeed.log"))
+    (File "c:\users\admin\classes\capstone\pcb\netlist.log"
+      (Type "Log File")
+      (LogFile "c:\users\admin\classes\capstone\pcb\netlist.log"))
+    (File "c:\users\admin\classes\capstone\pcb\genfeed.log"
+      (Type "Log File")
+      (LogFile "c:\users\admin\classes\capstone\pcb\genfeed.log"))
+    (File ".\power distribution system-pspicefiles\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles\netlist.log"))
+    (File ".\power distribution system-pspicefiles\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles\netrev.lst"))
+    (File ".\power distribution system-pspicefiles\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "c:\users\admin\appdata\roaming\spb_data\cdssetup\workspace\projects\power distribution system\power distribution system-pspicefiles\eco.txt")))
+  (PartMRUSelector
+    (PPTC041LGBN-RC
+      (FullPartName "PPTC041LGBN-RC.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1775981324\PPTC041LGBN-RC\CAPTURE\PPTC041LGBN-RC.OLB")
+      (DeviceIndex "0"))
+    (B12AP
+      (FullPartName "B12AP.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1775970029\B12AP\CAPTURE\B12AP.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TPS5420D
+      (FullPartName "TPS5420D.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\ONEDRIVE\DOCUMENTS\COLLEGE\ECEN 403\CADENCE LIBRARY\ORCADCAPTUREXML\2026-04-09_01-17-10.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (TPS5420_TRANS
+      (FullPartName "TPS5420_TRANS.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\CLASSES\CAPSTONE\LIBS\TPS5420_PSPICE_TRANS\TPS5420_TRANS.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (B340A-13-F
+      (FullPartName "B340A-13-F.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\CLASSES\CAPSTONE\ORCADCAPTUREOLB\ORCADCAPTUREOLB.OLB")
+      (DeviceIndex "0"))
+    (CD214A-B340LF
+      (FullPartName "CD214A-B340LF.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1775598313\CD214A-B340LF\CAPTURE\CD214A-B340LF.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\austi\OneDrive\Documents\College\ECEN 403\Cadence Library\TPS5420_PSPICE_TRANS")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Path "Logs")
+      (Select "Layout" ".\allegro\power distribution system.brd"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 295 0 600"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 1290 24 618")
+        (Scroll "0 0")
+        (Zoom "150")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\POWER DISTRIBUTION SYSTEM\POWER DISTRIBUTION SYSTEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3")))
+  (MPSSessionName "austi")
+  (ISPCBBASICLICENSE "false"))
