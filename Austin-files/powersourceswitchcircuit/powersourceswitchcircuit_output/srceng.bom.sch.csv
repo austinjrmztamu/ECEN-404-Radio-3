@@ -1,0 +1,13 @@
+Quantity,Part Number,Part Reference,Value,Description,Manufacturer Name,Manufacturer Part Number,Assigned SKU,Assigned Manufacturer Part Number,Assigned Manufacturer Name,Design Risk Score,Market Availability,Reach Compliant,ROHS Compliant,Status,Price Range
+1,,C1,10000u,,,,,,,,,,,,
+1,,C2,0.33u,,,,,,,,,,,,
+1,,C3,0.1u,,,,,,,,,,,,
+1,,D1,D1N4007,,,,,,,,,,,,
+1,,D2,D1N4007,,,,,,,,,,,,
+1,,D3,D1N4007,,,,,,,,,,,,
+1,,D4,D1N4007,,,,,,,,,,,,
+1,LM7812CT,IC1,LM7812CT,"Fairchild Semiconductor LM7812CT, Single Linear Voltage Regulator, 1A 12 V, 2%, 3-Pin TO-220",onsemi,LM7812CT,LM7812CT-4001119618,LM7812CT,ONSEMI,0,0,,,EOL,$1.35975-$1.35975
+1,694106301002,J1,694106301002,WR-DCPJ_THT_R/A_Plastic DCPowerJack_THT_R/A_Plastic_CenterPin_ 2.0,W�rth Elektronik,694106301002,694106301002-8086626996,694106301002,Wurth Elektronik GmbH & Co. KG,0,0,,,Active,$0.81689-$0.96150
+1,691137710002,J2,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",W�rth Elektronik,691137710002,691137710002-8351503115,691137710002,Wurth Elektronik GmbH & Co. KG,2,2,,,Active,$0.31800-$0.37907
+1,691137710002,J3,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",W�rth Elektronik,691137710002,691137710002-8351503115,691137710002,Wurth Elektronik GmbH & Co. KG,2,2,,,Active,$0.31800-$0.37907
+1,200MDP3T2B4M6QE,S1,200MDP3T2B4M6QE,"TOGGLE, 5A, 120VAC/28VDC DPDT, (On)-Off-(On), Panel Mount, Through Hole, Right Angle",E-Switch,200MDP3T2B4M6QE,200MDP3T2B4M6QE-8087351212,200MDP3T2B4M6QE,"E-Switch, Inc.",1,1,,,Active,$6.19323-$7.23978

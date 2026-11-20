@@ -1,0 +1,101 @@
+(ExpressProject "PowerSourceSwitchCircuit"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S020 (4396590)  [2/5/2026]-[10/04/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\powersourceswitchcircuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\POWERSOURCESWITCHCIRCUIT_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\POWERSOURCESWITCHCIRCUIT_OUTPUT\BOM.SCH.CSV"))
+    (File ".\powersourceswitchcircuit-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\powersourceswitchcircuit-pspicefiles\schematic1\testing.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\powersourceswitchcircuit-pspicefiles\schematic1\testing.sim"
+        (DisplayName "SCHEMATIC1-testing")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "austi")
+  (PartMRUSelector
+    (200MDP3T2B4M6QE
+      (FullPartName "200MDP3T2B4M6QE.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1791142567\200MDP3T2B4M6QE\CAPTURE\200MDP3T2B4M6QE.OLB")
+      (DeviceIndex "0"))
+    (691137710002
+      (FullPartName "691137710002.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1791142413\691137710002\CAPTURE\691137710002.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM7812CT
+      (FullPartName "LM7812CT.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1790699279\LM7812CT\CAPTURE\LM7812CT.OLB")
+      (DeviceIndex "0"))
+    (D1N4007
+      (FullPartName "D1N4007.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\ORCADX_25.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (694106301002
+      (FullPartName "694106301002.Normal")
+      (LibraryName
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\25.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1790697322\694106301002\CAPTURE\694106301002.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 600"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 618")
+        (Scroll "0 64")
+        (Zoom "130")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\AUSTI\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\POWERSOURCESWITCHCIRCUIT\POWERSOURCESWITCHCIRCUIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\OrCADX_25.1\tools\capture\library\pspice"))

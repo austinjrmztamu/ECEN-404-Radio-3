@@ -1,0 +1,13 @@
+Item Number,Quantity,Value,Description,Part Number,Part Reference,Manufacturer Name,Manufacturer Part Number,ID,SKU,ALT_MPN,ALT_MFR
+1,1,10000u,,,C1,,,26,,,
+2,1,0.33u,,,C2,,,29,,,
+3,1,0.1u,,,C3,,,38,,,
+4,1,D1N4007,,,D1,,,10,,,
+5,1,D1N4007,,,D2,,,13,,,
+6,1,D1N4007,,,D3,,,16,,,
+7,1,D1N4007,,,D4,,,19,,,
+8,1,LM7812CT,"Fairchild Semiconductor LM7812CT, Single Linear Voltage Regulator, 1A 12 V, 2%, 3-Pin TO-220",LM7812CT,IC1,onsemi,LM7812CT,32,,,
+9,1,694106301002,WR-DCPJ_THT_R/A_Plastic DCPowerJack_THT_R/A_Plastic_CenterPin_ 2.0,694106301002,J1,Würth Elektronik,694106301002,2,,,
+10,1,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",691137710002,J2,Würth Elektronik,691137710002,44,,,
+11,1,691137710002,"WR-TBL Terminal block - Wire protector - THT MRT12P5/2VE Serie 1377 - 5,0mm pitch - Monoblock THT - Green - Horizontal cable entry Wire Protector 11.5mm height - 02p",691137710002,J3,Würth Elektronik,691137710002,61,,,
+12,1,200MDP3T2B4M6QE,"TOGGLE, 5A, 120VAC/28VDC DPDT, (On)-Off-(On), Panel Mount, Through Hole, Right Angle",200MDP3T2B4M6QE,S1,E-Switch,200MDP3T2B4M6QE,47,,,

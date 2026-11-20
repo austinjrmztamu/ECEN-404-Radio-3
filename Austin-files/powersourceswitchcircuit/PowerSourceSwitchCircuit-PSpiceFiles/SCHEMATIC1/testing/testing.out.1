@@ -1,0 +1,57 @@
+
+**** 10/01/26 11:12:04 **** PSpice 25.1.0 (28 January 2026) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-testing"  [ c:\users\austi\appdata\roaming\spb_data\cdssetup\workspace\projects\powersourceswitchcircuit\pow
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "testing.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\austi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "C:\Users\austi\OneDrive\Documents\College\ECEN 403\Cadence Library\TPS5420_PSPICE_TRANS\TPS5420_TRANS.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWERSOURCESWITCHCIRCUIT
+D_D1         N00246 N00198 D1N4007 
+D_D2         N00198 N00238 D1N4007 
+D_D3         N00246 N00242 D1N4007 
+D_D4         N00242 N00238 D1N4007 
+C_C1         N00246 N00238  10000u  TC=0,0 
+C_C2         N00246 N00238  0.33u  TC=0,0 
+C_C3         N00246 N00845  0.1u  TC=0,0 
+
+**** RESUMING testing.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N00845.
+
+ERROR(ORPSIM-15142): Node N00246 is floating
+
+ERROR(ORPSIM-15142): Node N00198 is floating
+
+ERROR(ORPSIM-15142): Node N00238 is floating
+
+ERROR(ORPSIM-15142): Node N00242 is floating
+
+ERROR(ORPSIM-15142): Node N00845 is floating
+
